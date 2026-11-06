@@ -12,10 +12,10 @@ SPOT = r"\d+:\d+(?:\.\d+)?:\d+(?:\.\d+)?"
 SPOTS = rf"(?:{SPOT}(?:;{SPOT})*)?"
 KIND = r"(?:npc|object)?"
 PATTERNS = [
-    re.compile(r"FQSDATA1\|[^|]*\|[^|]*\|[^|]*"),
-    re.compile(rf"Q\|\d+\|[^|]*\|{KIND}\|\d*\|{KIND}\|\d*\|[\d,]*"),
-    re.compile(rf"G\|\d+\|\d+\|[^|]*\|\d*\|{SPOTS}"),
-    re.compile(rf"[NO]\|\d+\|[^|]*\|{SPOTS}"),
+    re.compile(r"FQSDATA2~[^~]*~[^~]*~[^~]*"),
+    re.compile(rf"Q~\d+~[^~]*~{KIND}~\d*~{KIND}~\d*~[\d,]*"),
+    re.compile(rf"G~\d+~\d+~[^~]*~\d*~{SPOTS}"),
+    re.compile(rf"[NO]~\d+~[^~]*~{SPOTS}"),
 ]
 
 
@@ -25,7 +25,7 @@ def known(line):
 
 def candidates(body):
     """Lines that look like export data, skipping the form's own text."""
-    return [line.strip() for line in body.splitlines() if re.match(r"\s*(FQSDATA\d*\||[QGNO]\|)", line)]
+    return [line.strip() for line in body.splitlines() if re.match(r"\s*(FQSDATA\d*~|[QGNO]~)", line)]
 
 
 def check(body):
@@ -36,7 +36,7 @@ def check(body):
         return [], "This doesn't look like a Forever Quest Sort export, so nothing was saved."
     if len(lines) - len(good) > len(lines) * MAX_BAD_SHARE:
         return [], "Part of this export looks changed or cut off, so nothing was saved. Copy it again from the Data tab."
-    if not any(line.startswith(("Q|", "G|", "N|", "O|")) for line in good):
+    if not any(line.startswith(("Q~", "G~", "N~", "O~")) for line in good):
         return [], "This export has no quest data in it yet, so nothing was saved."
     return good, f"Thanks. {len(good)} lines were saved. Details join the database once enough players report the same thing."
 
