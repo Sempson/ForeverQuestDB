@@ -1,0 +1,54 @@
+name: Quest data intake
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# One at a time, so two submissions can't collide when they're saved.
+concurrency:
+  group: quest-data-intake
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    if: startsWith(github.event.issue.title, '[Data]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the submission
+        id: check
+        # The issue text is only ever passed as data, never placed into a command.
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+        run: python scripts/intake.py
+      - name: Merge and save
+        if: steps.check.outputs.result == 'accepted'
+        run: |
+          python scripts/merge.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pending data
+          git commit -m "Add quest data submission #${{ github.event.issue.number }}"
+          git push
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+          REPLY: ${{ steps.check.outputs.reply }}
+          RESULT: ${{ steps.check.outputs.result }}
+        run: |
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body "$REPLY"
+          if [ "$RESULT" = "accepted" ]; then
+            gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY" --reason completed
+          else
+            gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY" --reason "not planned"
+          fi
