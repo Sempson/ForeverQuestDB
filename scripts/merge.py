@@ -52,7 +52,7 @@ class Places:
 
 
 def blank_quest():
-    return {"title": Votes(), "giver": Votes(), "ender": Votes(), "after": {}, "goals": {}}
+    return {"title": Votes(), "giver": Votes(), "ender": Votes(), "after": {}, "goals": {}, "level": Votes(), "lowest": {}}
 
 
 def blank_goal():
@@ -60,7 +60,8 @@ def blank_goal():
 
 
 def blank_entity():
-    return {"name": Votes(), "spots": Places()}
+    return {"name": Votes(), "spots": Places(), "title": Votes(), "faction": Votes(), "offers": Votes(), "sells": Votes(),
+            "low": {}, "high": {}}
 
 
 def read(root):
@@ -75,7 +76,7 @@ def read(root):
         for line in path.read_text(encoding="utf-8").splitlines():
             parts = line.split("~")
             kind = parts[0]
-            if kind == "FQSDATA2":
+            if kind == "FQSDATA3":
                 locale = parts[3]
             names = locale == NAME_LOCALE
             if kind == "Q":
@@ -90,6 +91,11 @@ def read(root):
                     before = {int(q) for q in parts[7].split(",")}
                     known = quest["after"].get(player)
                     quest["after"][player] = before if known is None else known & before
+                if parts[8]:
+                    quest["level"].add(int(parts[8]), player)
+                if parts[9]:
+                    level = int(parts[9])
+                    quest["lowest"][player] = min(level, quest["lowest"].get(player, level))
             elif kind == "G":
                 goal = quests[int(parts[1])]["goals"].setdefault(int(parts[2]), blank_goal())
                 if names:
@@ -102,7 +108,30 @@ def read(root):
                 if names:
                     entity["name"].add(parts[2], player)
                 entity["spots"].add(spots(parts[3]), player)
+                if kind == "N":
+                    if parts[4]:
+                        low = int(parts[4])
+                        entity["low"][player] = min(low, entity["low"].get(player, low))
+                    if parts[5]:
+                        high = int(parts[5])
+                        entity["high"][player] = max(high, entity["high"].get(player, high))
+                    if names:
+                        entity["title"].add(parts[6], player)
+                    entity["faction"].add(parts[7], player)
+                    for word in filter(None, parts[8].split(",")):
+                        entity["offers"].add(word, player)
+                    for item in filter(None, parts[9].split(",")):
+                        entity["sells"].add(int(item), player)
     return quests, groups, players
+
+
+def lowest(values):
+    """The lowest value reported, once at least two players have reported one."""
+    return min(values.values()) if len(values) >= MIN_PLAYERS else None
+
+
+def agreed_set(votes):
+    return sorted((v for v, p in votes.who.items() if len(p) >= MIN_PLAYERS), key=str)
 
 
 def prerequisites(after):
@@ -124,16 +153,22 @@ def build(root):
         giver, ender = q["giver"].best(), q["ender"].best()
         after = prerequisites(q["after"])
         row = {"title": q["title"].best(), "giver": list(giver) if giver else None,
-               "ender": list(ender) if ender else None, "after": after, "goals": goals}
+               "ender": list(ender) if ender else None, "after": after, "goals": goals,
+               "level": q["level"].best(), "lowest_accepted": lowest(q["lowest"])}
         if giver or ender or goals or after:
             out_quests[str(quest_id)] = row
     out = {"quests": out_quests}
     for key, label in (("N", "npcs"), ("O", "objects")):
         out[label] = {}
         for entity_id, e in sorted(groups[key].items()):
-            places = e["spots"].agreed()
-            if places:
-                out[label][str(entity_id)] = {"name": e["name"].best(), "spots": places}
+            row = {"name": e["name"].best(), "spots": e["spots"].agreed()}
+            if key == "N":
+                highs = list(e["high"].values())
+                row.update({"title": e["title"].best(), "faction": e["faction"].best(), "low": lowest(e["low"]),
+                            "high": max(highs) if len(highs) >= MIN_PLAYERS else None,
+                            "offers": agreed_set(e["offers"]), "sells": agreed_set(e["sells"])})
+            if row["spots"] or row.get("title") or row.get("offers") or row.get("sells") or row.get("low"):
+                out[label][str(entity_id)] = row
     folder = root / "data"
     folder.mkdir(exist_ok=True)
     for name, table in out.items():
