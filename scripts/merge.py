@@ -73,9 +73,9 @@ def read(root):
         players.add(player)
         locale = None
         for line in path.read_text(encoding="utf-8").splitlines():
-            parts = line.split("|")
+            parts = line.split("~")
             kind = parts[0]
-            if kind == "FQSDATA1":
+            if kind == "FQSDATA2":
                 locale = parts[3]
             names = locale == NAME_LOCALE
             if kind == "Q":
