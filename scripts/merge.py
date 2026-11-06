@@ -61,13 +61,18 @@ def blank_goal():
 
 def blank_entity():
     return {"name": Votes(), "spots": Places(), "title": Votes(), "faction": Votes(), "offers": Votes(), "sells": Votes(),
-            "low": {}, "high": {}}
+            "low": {}, "high": {}, "gather": Votes(), "drops": Votes()}
+
+
+def blank_zone():
+    return {"spots": Places(), "items": Votes(), "lowest": {}}
 
 
 def read(root):
     quests = collections.defaultdict(blank_quest)
     groups = {"N": collections.defaultdict(blank_entity), "O": collections.defaultdict(blank_entity)}
     pending = sorted((root / "pending").glob("*.txt")) if (root / "pending").exists() else []
+    zones = collections.defaultdict(blank_zone)
     players = set()
     for path in pending:
         player = path.stem.split("-")[0]
@@ -76,7 +81,7 @@ def read(root):
         for line in path.read_text(encoding="utf-8").splitlines():
             parts = line.split("~")
             kind = parts[0]
-            if kind == "FQSDATA3":
+            if kind == "FQSDATA4":
                 locale = parts[3]
             names = locale == NAME_LOCALE
             if kind == "Q":
@@ -122,7 +127,19 @@ def read(root):
                         entity["offers"].add(word, player)
                     for item in filter(None, parts[9].split(",")):
                         entity["sells"].add(int(item), player)
-    return quests, groups, players
+                else:
+                    entity["gather"].add(parts[4], player)
+                    for item in filter(None, parts[5].split(",")):
+                        entity["drops"].add(int(item), player)
+            elif kind == "F":
+                zone = zones[int(parts[1])]
+                zone["spots"].add(spots(parts[2]), player)
+                for item in filter(None, parts[3].split(",")):
+                    zone["items"].add(int(item), player)
+                if parts[4]:
+                    skill = int(parts[4])
+                    zone["lowest"][player] = min(skill, zone["lowest"].get(player, skill))
+    return quests, groups, zones, players
 
 
 def lowest(values):
@@ -142,7 +159,7 @@ def prerequisites(after):
 
 
 def build(root):
-    quests, groups, players = read(root)
+    quests, groups, zones, players = read(root)
     out_quests = {}
     for quest_id, q in sorted(quests.items()):
         goals = {}
@@ -167,13 +184,21 @@ def build(root):
                 row.update({"title": e["title"].best(), "faction": e["faction"].best(), "low": lowest(e["low"]),
                             "high": max(highs) if len(highs) >= MIN_PLAYERS else None,
                             "offers": agreed_set(e["offers"]), "sells": agreed_set(e["sells"])})
+            else:
+                row.update({"gather": e["gather"].best(), "drops": agreed_set(e["drops"])})
             if row["spots"] or row.get("title") or row.get("offers") or row.get("sells") or row.get("low"):
                 out[label][str(entity_id)] = row
+    out["fishing"] = {}
+    for map_id, zone in sorted(zones.items()):
+        row = {"spots": zone["spots"].agreed(), "items": agreed_set(zone["items"]), "lowest_skill": lowest(zone["lowest"])}
+        if row["spots"] or row["items"]:
+            out["fishing"][str(map_id)] = row
     folder = root / "data"
     folder.mkdir(exist_ok=True)
     for name, table in out.items():
         (folder / f"{name}.json").write_text(json.dumps(table, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-    stats = {"players": len(players), "quests": len(out["quests"]), "npcs": len(out["npcs"]), "objects": len(out["objects"])}
+    stats = {"players": len(players), "quests": len(out["quests"]), "npcs": len(out["npcs"]), "objects": len(out["objects"]),
+             "fishing_zones": len(out["fishing"])}
     (folder / "stats.json").write_text(json.dumps(stats, indent=1) + "\n", encoding="utf-8")
     return stats
 
