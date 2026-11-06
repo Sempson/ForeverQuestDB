@@ -12,10 +12,11 @@ SPOT = r"\d+:\d+(?:\.\d+)?:\d+(?:\.\d+)?"
 SPOTS = rf"(?:{SPOT}(?:;{SPOT})*)?"
 KIND = r"(?:npc|object)?"
 PATTERNS = [
-    re.compile(r"FQSDATA2~[^~]*~[^~]*~[^~]*"),
-    re.compile(rf"Q~\d+~[^~]*~{KIND}~\d*~{KIND}~\d*~[\d,]*"),
+    re.compile(r"FQSDATA3~[^~]*~[^~]*~[^~]*"),
+    re.compile(rf"Q~\d+~[^~]*~{KIND}~\d*~{KIND}~\d*~[\d,]*~\d*~\d*"),
     re.compile(rf"G~\d+~\d+~[^~]*~\d*~{SPOTS}"),
-    re.compile(rf"[NO]~\d+~[^~]*~{SPOTS}"),
+    re.compile(rf"N~\d+~[^~]*~{SPOTS}~\d*~\d*~[^~]*~[^~]*~[a-z,]*~[\d,]*"),
+    re.compile(rf"O~\d+~[^~]*~{SPOTS}"),
 ]
 
 
