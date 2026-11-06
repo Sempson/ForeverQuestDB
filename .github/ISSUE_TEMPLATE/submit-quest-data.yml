@@ -1,0 +1,26 @@
+name: Submit quest data
+description: Paste one part of your export from the Forever Quest Sort Data tab.
+title: "[Data] Quest data submission"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        In the game, open Forever Quest Sort, go to the Data tab and press Export Data. Copy a part with Ctrl+C and paste it below. If your export has more than one part, submit each part separately.
+
+        The export has no character, realm or account names. Your GitHub username is shown on this submission because it's a public issue.
+  - type: textarea
+    id: data
+    attributes:
+      label: Quest data
+      description: Paste the export text here without changing it.
+      placeholder: FQSDATA1|...
+      render: text
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      options:
+        - label: I agree this data can be published in ForeverQuestDB under the license in this repository.
+          required: true
