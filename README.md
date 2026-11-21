@@ -22,5 +22,5 @@ A submission is checked automatically, and only lines in the export format are k
 ## Files
 
 - `pending/` holds every accepted submission.
-- `data/quests.json`, `data/npcs.json`, `data/objects.json` and `data/fishing.json` hold the agreed data.
+- `data/quests.json`, `data/npcs.json`, `data/objects.json` and `data/fishing.json` hold the agreed data. A quest's `money` is its gold reward in copper (100 copper is 1 silver, 10,000 is 1 gold).
 - `data/stats.json` counts it.
