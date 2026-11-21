@@ -52,7 +52,8 @@ class Places:
 
 
 def blank_quest():
-    return {"title": Votes(), "giver": Votes(), "ender": Votes(), "after": {}, "goals": {}, "level": Votes(), "lowest": {}}
+    return {"title": Votes(), "giver": Votes(), "ender": Votes(), "after": {}, "goals": {}, "level": Votes(), "lowest": {},
+            "money": Votes()}
 
 
 def blank_goal():
@@ -101,6 +102,9 @@ def read(root):
                 if parts[9]:
                     level = int(parts[9])
                     quest["lowest"][player] = min(level, quest["lowest"].get(player, level))
+            elif kind == "M":
+                # Quest gold in copper.
+                quests[int(parts[1])]["money"].add(int(parts[2]), player)
             elif kind == "G":
                 goal = quests[int(parts[1])]["goals"].setdefault(int(parts[2]), blank_goal())
                 if names:
@@ -171,8 +175,8 @@ def build(root):
         after = prerequisites(q["after"])
         row = {"title": q["title"].best(), "giver": list(giver) if giver else None,
                "ender": list(ender) if ender else None, "after": after, "goals": goals,
-               "level": q["level"].best(), "lowest_accepted": lowest(q["lowest"])}
-        if giver or ender or goals or after:
+               "level": q["level"].best(), "lowest_accepted": lowest(q["lowest"]), "money": q["money"].best()}
+        if giver or ender or goals or after or row["money"] is not None:
             out_quests[str(quest_id)] = row
     out = {"quests": out_quests}
     for key, label in (("N", "npcs"), ("O", "objects")):
