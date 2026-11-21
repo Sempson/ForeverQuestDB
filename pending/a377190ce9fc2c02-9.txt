@@ -1,0 +1,958 @@
+FQSDATA4~1.60.1~71037~enUS
+Q~97003~Chol'aruk the Ravener~npc~267310~~~79976,79975,79974,79980,79192,79007,5041,871,1492,869,845,844~21~15
+Q~97253~Parts and Pieces~npc~7161~~~869,845,844,6386,6385,6384,6365,842,926,809,840~15~13
+Q~97263~Your Package Has Arrived~object~660964~npc~258098~96055,96050,96047,95212,96390,96391,95214,95213,432,433,291,287~2~12
+Q~97894~Business in Auberdine~npc~7232~npc~6301~1097,117,140,139,13,92747,92745,9,92909,138,136,153~17~17
+Q~97914~Expanding Horizons~npc~3649~npc~1646~142,14,399,141,135,132,65,244,97894,353,92751,92750~17~18
+Q~97926~Making Do~npc~1646~npc~3649~97914,4762,966,965,954,958,4761,984,98025,963,3524,983~17~19
+Q~98025~WANTED Jai'vhanel~~~npc~2930~142,14,399,141,135,132,65,244,97894,353,92751,92750~13~18
+G~98025~1~Feather of Jai'vhanel~~1439:0.451:0.584
+Q~98059~Hillsbrad's Hoard~npc~251493~npc~251493~538,161,1338,307,86667,217,86585,263,237,267,224,418~27~31
+G~98059~1~Sealed Company Request delivered to Hillsbrad council~~1424:0.297:0.424
+Q~98071~Brewer's Trade~npc~2705~~~538,161,1338,307,86667,217,86585,263,237,267,224,418~27~31
+Q~98189~Return the Statuette~npc~1242~npc~2104~286,2745,377,350,393,388,387,392,391,303,87491,88756~25~26
+Q~98190~A Friend of the Family~npc~2104~npc~1748~98189,286,2745,377,350,393,388,387,392,391,303,87491~25~26
+Q~98191~A Friend of the Family~npc~1748~npc~928~98190,98209,98208,98197,306,378,305,98189,286,2745,377,350~25~27
+Q~98197~Spoils of War~npc~2086~npc~2086~298,86613,297,436,6392,2923,6388,6391,6387,116,98407,34~22~23
+G~98197~1~Khaz Modan Timber~1417~1437:0.058:0.584;1437:0.093:0.481;1437:0.08:0.505;1437:0.059:0.518;1437:0.054:0.555
+G~98197~2~Khaz Modan Iron~1417~1437:0.061:0.58;1437:0.05:0.525;1437:0.062:0.476;1437:0.097:0.508
+Q~98208~Bloom of the Heavens~npc~270844~npc~270844~298,86613,297,436,6392,2923,6388,6391,6387,116,98407,34~29~23
+G~98208~1~Nord'el~~1437:0.121:0.638
+Q~98209~Bloom of the Heavens~npc~270844~npc~3649~98208,98197,306,378,305,98189,286,2745,377,350,393,388~29~27
+Q~98219~The Shamed Lieutenant~npc~928~npc~2228~98191,98190,98209,98208,98197,306,378,305,98189,286,2745,377~30~27
+Q~98221~From the Ashes~npc~2104~~~298,86613,297,436,6392,2923,6388,6391,6387,116,98407,34~28~23
+Q~98247~Shipping Label~~~npc~256390~561,560,559,536,555,538,161,1338,307,86667,217,86585~60~31
+Q~98282~Alchemical Hazards~npc~1480~~~298,86613,297,436,6392,2923,6388,6391,6387,116,98407,34~22~23
+Q~98319~Secure the Mountain~npc~271546~npc~271546~98322,96629,96608,400,5625~8~6
+G~98319~1~Mountaineer Cornelius found~~1426:0.43:0.496
+Q~98321~Flintfire's Shipment~npc~1241~npc~1241~~7~6
+G~98321~1~Flintfire's Shipment~271486~1426:0.418:0.528;1426:0.421:0.485;1426:0.425:0.505
+Q~98322~Secure the Mountain~~~npc~271546~~8~
+Q~98323~Secure the Mountain~npc~271546~npc~1252~98319,98321,320,310,308,403,319,99158,318,317,384,5541~8~8
+Q~98326~Frosthowl~npc~8508~npc~8508~318,317,384,5541,98322,96629,96608,400,5625~9~7
+G~98326~1~Sack of Fish~~1426:0.397:0.486
+Q~98386~Alther's Mill~npc~341~npc~341~89,124,131,130,119,345,129,118,2158,344,343,3741~21~22
+G~98386~1~Greater Tarantula slain~~1433:0.463:0.376;1433:0.508:0.445;1433:0.48:0.446
+G~98386~2~Tarantula Egg destroyed~505~1433:0.463:0.376;1433:0.523:0.457;1433:0.494:0.449
+Q~98387~Blackrock Blockade~npc~382~npc~382~990,967,98461,942,741,87760,4733,4732,4731,4730,731,729~21~21
+G~98387~1~Stolen Weapon~437~1433:0.637:0.785;1433:0.717:0.667;1433:0.713:0.735;1433:0.739:0.714;1433:0.738:0.691
+G~98387~2~Blackrock Supplies~440~1433:0.638:0.784;1433:0.727:0.736;1433:0.708:0.808;1433:0.698:0.776;1433:0.726:0.866;1433:0.687:0.796
+Q~98407~Show of Force~npc~1070~npc~1070~990,967,98461,942,741,87760,4733,4732,4731,4730,731,729~17~21
+G~98407~1~Spiked Collar~423~1433:0.105:0.624
+Q~98461~Unrequited Love~npc~2913~npc~2096~142,14,399,141,135,132,65,244,97894,353,92751,92750~21~18
+Q~98463~Talk of the Town~npc~2366~npc~2832~538,161,1338,307,86667,217,86585,263,237,267,224,418~33~31
+Q~98815~Highland Hides~npc~2094~~~484,468,288,467,146,5,145,144,143,126,248,94~28~25
+Q~98895~Darkspear Islands Clash~npc~15351~~~1338,307,86667,217,86585,263,237,267,224,418,256,255~39~31
+Q~99127~A Net Disaster~npc~383~npc~383~40,332,2039,1339,7905,96045,94824,97263,96055,96050,96047,95212~7~12
+G~99127~1~Half-Eaten Fish~1651~1429:0.477:0.609;1429:0.483:0.585;1429:0.485:0.631
+Q~99128~Slimy Menace~npc~383~npc~383~99127,40,332,2039,1339,7905,96045,94824,97263,96055,96050,96047~7~12
+G~99128~1~Murloc slain~285~1429:0.507:0.651;1429:0.539:0.658
+G~99128~2~Murloc Streamrunner slain~~1429:0.506:0.646;1429:0.549:0.659
+Q~99129~A Man About a Murloc~npc~383~npc~241~99128,60,62,47,99127,40,332,2039,1339,7905,96045,94824~7~12
+Q~99130~An Enticing Offer~npc~241~npc~241~99129,99143,99128,60,62,47,99127,40,332,2039,1339,7905~7~12
+G~99130~1~Vial of Animal Blood~113~1429:0.428:0.765;1429:0.411:0.876
+G~99130~2~Duskweed Petal~113~1429:0.414:0.87
+Q~99131~Baited for Success~npc~241~npc~383~99130,87,84,86,85,99129,99143,99128,60,62,47,99127~7~13
+Q~99143~Bottles and Baubles~npc~1651~npc~1651~40,332,2039,1339,7905,96045,94824,97263,96055,96050,96047,95212~7~12
+G~99143~1~Shiny Junk~285~1429:0.54:0.667
+Q~99158~Dawn in the Mountains~~~npc~1253~~8~
+Q~99159~Finding Warmth~npc~1253~npc~1253~99158,318,317,384,5541,98322,96629,96608,400,5625~8~7
+G~99159~1~Mostly Dry Firewood~276003~1426:0.599:0.586;1426:0.584:0.519;1426:0.56:0.522;1426:0.555:0.457
+Q~99160~Rime's Wrath~npc~1253~npc~1253~99159,313,98323,98319,98321,320,310,308,403,319,99158,318~8~8
+G~99160~1~Minor Ice Elemental slain~276003~1426:0.576:0.448;1426:0.542:0.45
+Q~99161~Rime's Wrath~npc~1253~npc~1253~99160,99159,313,98323,98319,98321,320,310,308,403,319,99158~8~9
+G~99161~1~Avala's Core~~1426:0.579:0.428
+Q~99162~Treacherous Cold~npc~1253~npc~1253~99159,313,98323,98319,98321,320,310,308,403,319,99158,318~8~8
+G~99162~1~Stoneanvil's Rifle~~1426:0.532:0.588
+G~99162~2~Sunhammer's Rifle~~1426:0.599:0.501
+G~99162~3~Coalbeard's Rifle~~1426:0.521:0.441
+N~30~Forest Spider~~6~6~~~~
+N~36~Harvest Golem~1436:0.353:0.47~11~12~~~~
+N~40~Kobold Miner~1429:0.637:0.572~6~7~~~~
+N~46~Murloc Forager~~9~10~~~~
+N~48~Skeletal Warrior~~21~22~~~~
+N~60~Ruklar the Trapper~1429:0.639:0.558~8~8~~~~
+N~74~Kurran Steele~1429:0.414:0.656~10~10~Cloth & Leather Armor Merchant~Alliance~repair,vendor~795,3602,794,792,3603,793,799,1839,798,796,1840,797
+N~94~Defias Cutpurse~~5~6~~~~
+N~95~Defias Smuggler~1436:0.459:0.385;1436:0.441:0.261~11~12~~~~
+N~97~Riverpaw Runt~~8~9~~~~
+N~113~Stonetusk Boar~1429:0.428:0.765;1429:0.414:0.87~5~6~~~~
+N~114~Harvest Watcher~1436:0.386:0.51~14~15~~~~
+N~115~Harvest Reaper~~17~17~~~~
+N~116~Defias Bandit~~8~9~~~~
+N~117~Riverpaw Gnoll~1436:0.408:0.231~11~12~~~~
+N~118~Prowler~~9~10~~~~
+N~121~Defias Pathstalker~~15~16~~~~
+N~122~Defias Highwayman~~17~18~~~~
+N~123~Riverpaw Mongrel~~13~13~~~~
+N~124~Riverpaw Brute~~15~16~~~~
+N~126~Murloc Coastrunner~1436:0.475:0.106~12~13~~~~
+N~151~Brog Hamfist~1429:0.439:0.66~10~10~General Supplies~Alliance~vendor~4496,159,4498,2512,2516,2947,3111,2946,3131,4470,4471,5042
+N~154~Greater Fleshripper~~16~17~~~~
+N~157~Goretusk~1436:0.46:0.443~14~15~~~~
+N~167~Morhan Coppertongue~1432:0.341:0.467~13~13~Metalsmith~Alliance~repair,vendor~847,1845,848,849,1846,850
+N~171~Murloc Warrior~~16~16~~~~
+N~199~Young Fleshripper~~10~11~~~~
+N~202~Skeletal Horror~~23~24~~~~
+N~203~Skeletal Mage~1431:0.806:0.661~22~23~~~~
+N~206~Nightbane Vile Fang~~30~30~~~~
+N~210~Bone Chewer~1431:0.205:0.285~26~27~~~~
+N~212~Splinter Fist Warrior~~29~30~~~~
+N~213~Starving Dire Wolf~~19~20~~~~
+N~215~Defias Night Runner~~24~24~~~~
+N~217~Venom Web Spider~1431:0.156:0.287~19~20~~~~
+N~218~Grave Robber~~24~25~~~~
+N~233~Farmer Saldean~1436:0.561:0.313~20~20~~Alliance~vendor~4540,4541,4542,4544,4601,8950,11109
+N~234~Gryan Stoutmantle~1436:0.563:0.475~35~35~The People's Militia~Alliance~~
+N~235~Salma Saldean~1436:0.564:0.306~20~20~~Alliance~~
+N~237~Farmer Furlbrow~1436:0.6:0.194~20~20~~Alliance~~
+N~238~Verna Furlbrow~1436:0.6:0.194~20~20~~Alliance~~
+N~239~Grimbooze Thunderbrew~1436:0.447:0.803~20~20~~Alliance~~
+N~240~Marshal Dughan~1429:0.421:0.659~25~25~~Alliance~~
+N~241~Remy "Two Times"~1429:0.421:0.672~5~5~~Alliance~~
+N~244~Ma Stonefield~1429:0.347:0.845~3~3~~Alliance~~
+N~246~"Auntie" Bernice Stonefield~1429:0.345:0.843~6~6~~Alliance~~
+N~247~Billy Maclure~1429:0.431:0.857~1~1~~Alliance~~
+N~253~William Pestle~1429:0.433:0.658~6~6~~Alliance~~
+N~255~Gerard Tiller~~6~6~~Alliance~~
+N~261~Guard Thomas~1429:0.739:0.722~30~30~~Alliance~~
+N~263~Lord Ello Ebonlocke~1431:0.719:0.464~30~30~Mayor of Darkshire~Alliance~~
+N~264~Commander Althea Ebonlocke~1431:0.736:0.469~45~45~Leader of The Night Watch~Alliance~~
+N~265~Madame Eva~1431:0.758:0.454~25~25~~Alliance~~
+N~266~Wiley the Black~1433:0.215:0.453~26~26~~Alliance~~
+N~267~Clerk Daltry~1431:0.725:0.468~31~31~~Alliance~~
+N~268~Sirra Von'Indi~1431:0.726:0.475~24~24~Historian of Darkshire~Alliance~~
+N~270~Councilman Millstipe~1431:0.72:0.478~28~28~Council of Darkshire~Alliance~~
+N~272~Chef Grual~1431:0.738:0.435~30~30~~Alliance~~
+N~273~Tavernkeep Smitts~1431:0.738:0.444~22~22~~Alliance~~
+N~274~Barkeep Hann~1431:0.739:0.442~26~26~Bartender~Alliance~vendor~1942,159,1179,1205,1708,1645,8766
+N~276~Viktori Prism'Antras~1431:0.798:0.48~28~28~~Alliance~~
+N~277~Roberto Pupellyverbos~1453:0.6:0.769~30~30~Merlot Connoisseur~Alliance~vendor~2723,2593,2596,2594,2595,1941
+N~278~Sara Timberlain~1429:0.794:0.687~5~5~~Alliance~~
+N~279~Morgan Pestle~1453:0.631:0.745~30~30~~Alliance~~
+N~285~Murloc~1429:0.54:0.667~6~7~~~~
+N~288~Jitters~1431:0.183:0.563~25~25~~Alliance~~
+N~289~Abercrombie~1431:0.28:0.315~35~35~The Hermit~Alliance~~
+N~294~Marshal Haggard~1429:0.846:0.693~20~20~~Alliance~~
+N~295~Innkeeper Farley~1429:0.438:0.659~30~30~Innkeeper~Alliance~vendor~2070,414,422,1707,3927,8932,159,1179,1205,1708,1645,8766
+N~297~Caretaker Folsom~1453:0.426:0.724~30~30~~Alliance~~
+N~302~Blind Mary~1431:0.818:0.593~40~40~~Alliance~~
+N~311~Sven Yorgen~1431:0.077:0.341~20~20~~Alliance~~
+N~313~Theocritus~1429:0.652:0.697~24~24~Mage of Tower Azora~Alliance~~
+N~314~Eliza~~31~31~Bride of the Embalmer~~~
+N~327~Goldtooth~~8~8~~~~
+N~330~Princess~~9~9~~~~
+N~332~Master Mathias Shaw~1453:0.784:0.707~62~62~Leader of SI 7~Alliance~~
+N~334~Gath'Ilzogg~~26~26~Warlord of the Blackrock Clan~~~
+N~335~Singe~~24~24~~~~
+N~340~Kendor Kabonka~1453:0.774:0.526~50~50~Master of Cooking Recipes~Alliance~vendor~2889,3679,2698,3681,3678,3682,3683,2697,3680,2699,2701,2700,728
+N~341~Foreman Oslow~1433:0.271:0.486~20~20~~Alliance~~
+N~342~Martie Jainrose~1433:0.169:0.463~20~20~~Alliance~~
+N~343~Chef Breanna~1433:0.176:0.439~19~19~~Alliance~~
+N~344~Magistrate Solomon~1433:0.249:0.443~36~36~~Alliance~~
+N~345~Bellygrub~~24~24~~~~
+N~346~Barkeep Daniels~1433:0.215:0.441~21~21~~Alliance~~
+N~349~Corporal Keeshan~~25~25~~Alliance~~
+N~352~Dungar Longdrink~1453:0.713:0.723~55~55~Gryphon Master~Alliance~flight~
+N~377~Priestess Josetta~1429:0.433:0.657~13~13~Priest Trainer~Alliance~trainer~
+N~379~Darcy~1433:0.216:0.443~15~15~Waitress~Alliance~~
+N~381~Dockmaster Baren~1433:0.227:0.473~20~20~~Alliance~~
+N~382~Marshal Marris~1433:0.284:0.49~35~35~~Alliance~~
+N~383~Jason Mathers~1429:0.474:0.622~7~7~Fishmonger~Alliance~~
+N~390~Porcine Entourage~~7~7~~~~
+N~391~Old Murk-Eye~~20~20~~~~
+N~392~Captain Grayson~1436:0.301:0.86~30~30~~~~
+N~412~Stitches~~35~35~Gift from the Embalmer~~~
+N~415~Verner Osgood~1433:0.26:0.474~25~25~~Alliance~~
+N~422~Murloc Flesheater~1433:0.364:0.546~18~19~~~~
+N~423~Redridge Mongrel~1433:0.359:0.709;1433:0.395:0.719;1433:0.105:0.624~15~16~~~~
+N~424~Redridge Poacher~1433:0.357:0.71;1433:0.402:0.729~17~17~~~~
+N~426~Redridge Brute~1433:0.337:0.305;1433:0.281:0.26~17~18~~~~
+N~428~Dire Condor~1433:0.523:0.457~18~19~~~~
+N~429~Shadowhide Darkweaver~~26~26~~~~
+N~430~Redridge Mystic~1433:0.292:0.252~18~19~~~~
+N~431~Shadowhide Slayer~~26~26~~~~
+N~432~Shadowhide Brute~~23~24~~~~
+N~433~Shadowhide Gnoll~1433:0.663:0.482~22~23~~~~
+N~434~Rabid Shadowhide Gnoll~~21~22~~~~
+N~435~Blackrock Champion~~24~25~~~~
+N~436~Blackrock Shadowcaster~~22~23~~~~
+N~437~Blackrock Renegade~1433:0.739:0.714;1433:0.738:0.691~21~22~~~~
+N~440~Blackrock Grunt~1433:0.708:0.808;1433:0.698:0.776~19~20~~~~
+N~441~Black Dragon Whelp~~17~18~~~~
+N~442~Tarantula~~15~15~~~~
+N~445~Redridge Alpha~~21~22~~~~
+N~446~Redridge Basher~~19~20~~~~
+N~448~Hogger~~11~11~~~~
+N~449~Defias Knuckleduster~1436:0.503:0.787~16~17~~~~
+N~450~Defias Renegade Mage~~19~19~~~~
+N~454~Young Goretusk~~12~13~~~~
+N~456~Murloc Minor Oracle~1436:0.478:0.094~13~14~~~~
+N~458~Murloc Hunter~~16~17~~~~
+N~464~Guard Parker~1433:0.103:0.713~30~30~~Alliance~~
+N~465~Barkeep Dobbins~1429:0.439:0.658~10~10~Bartender~Alliance~vendor~1939,159,1179,1205,1708,1645,8766,2723,2593,2596,2594,2595,2070,414,422,1707,3927,8932
+N~466~General Marcus Jonathan~1453:0.691:0.827~62~62~High Commander of Stormwind Defense~Alliance~~
+N~471~Mother Fang~~7~7~~~~
+N~474~Defias Rogue Wizard~~9~10~~~~
+N~475~Kobold Tunneler~~5~6~~~~
+N~476~Kobold Geomancer~1429:0.611:0.563~7~8~~~~
+N~478~Riverpaw Outrunner~1429:0.684:0.456~9~10~~~~
+N~480~Rusty Harvest Golem~~9~10~~~~
+N~481~Defias Footpad~~10~10~~~~
+N~482~Elling Trias~1453:0.66:0.741~30~30~Master of Cheese~Alliance~~
+N~485~Blackrock Outrunner~1433:0.713:0.735~20~21~~~~
+N~486~Tharil'zun~~24~24~~~~
+N~491~Quartermaster Lewis~1436:0.57:0.472~20~20~Quartermaster~Alliance~vendor~159,1179,4496,4498,2512,2515,2516,2519,2947,2946,3111,3131,4470,4471,5042
+N~499~Watcher Paige~~29~29~The Night Watch~Alliance~~
+N~500~Riverpaw Scout~~12~13~~~~
+N~501~Riverpaw Herbalist~~14~15~~~~
+N~502~Benny Blaanco~~15~15~~~~
+N~504~Defias Trapper~1436:0.494:0.198;1436:0.427:0.259~12~13~~~~
+N~505~Greater Tarantula~1433:0.509:0.449~19~20~~~~
+N~511~Insane Ghoul~~26~26~~~~
+N~513~Murloc Netter~~15~15~~~~
+N~514~Smith Argus~1429:0.417:0.656~24~24~Journeyman Blacksmith~Alliance~~
+N~515~Murloc Raider~1436:0.53:0.11;1436:0.47:0.094~11~12~~~~
+N~518~Yowler~~25~25~~~~
+N~522~Mor'Ladim~~35~35~~~~
+N~523~Thor~1436:0.565:0.526~55~55~Gryphon Master~Alliance~flight~
+N~524~Rockhide Boar~~7~7~~~~
+N~525~Mangy Wolf~~5~6~~~~
+N~531~Skeletal Fiend~1431:0.163:0.425~24~25~~~~
+N~539~Pygmy Venom Web Spider~1431:0.132:0.688~18~19~~~~
+N~547~Great Goretusk~1433:0.274:0.723~16~17~~~~
+N~548~Murloc Minor Tidecaller~~17~18~~~~
+N~550~Defias Messenger~~15~15~~~~
+N~565~Rabid Dire Wolf~1431:0.144:0.271~20~21~~~~
+N~568~Shadowhide Warrior~~24~25~~~~
+N~569~Green Recluse~~21~22~~~~
+N~570~Brain Eater~~28~29~~~~
+N~579~Shadowhide Assassin~~23~23~~~~
+N~589~Defias Pillager~1436:0.434:0.682~14~15~~~~
+N~590~Defias Looter~1436:0.29:0.485;1436:0.437:0.671~13~14~~~~
+N~599~Marisa du'Paige~~18~18~~~~
+N~604~Plague Spreader~1431:0.205:0.286~27~28~~~~
+N~615~Blackrock Tracker~~23~24~~~~
+N~616~Chatter~~23~23~~~~
+N~620~Chicken~~1~1~~~~
+N~633~Elaine Carevin~1431:0.753:0.487~18~18~~Alliance~~
+N~656~Wilder Thistlenettle~1453:0.702:0.408~20~20~~Alliance~~
+N~658~Sten Stoutarm~1426:0.299:0.713~5~5~~Alliance~~
+N~663~Calor~1431:0.757:0.475~20~20~~Alliance~~
+N~691~Lesser Water Elemental~~36~36~~~~
+N~703~Lieutenant Fangore~~26~26~~~~
+N~712~Redridge Thrasher~~14~15~~~~
+N~714~Talin Keeneye~1426:0.226:0.713~5~5~~Alliance~~
+N~721~Rabbit~~1~1~~~~
+N~727~Ironforge Mountaineer~~30~30~~Alliance~~
+N~732~Murloc Lurker~~9~10~~~~
+N~735~Murloc Streamrunner~~6~7~~~~
+N~785~Skeletal Warder~~28~29~~~~
+N~786~Grelin Whitebeard~1426:0.25:0.757~5~5~~Alliance~~
+N~787~Skeletal Healer~1431:0.144:0.364~26~27~~~~
+N~789~Kimberly Hiett~1433:0.219:0.456~20~20~Fletcher~Alliance~repair,vendor~5439,11362,2512,2515,3030
+N~790~Karen Taylor~1433:0.248:0.475~22~22~Mining and Smithing Supplies~Alliance~vendor~2901,2880,3466,3857,5956,18567
+N~791~Lindsay Ashlock~1433:0.237:0.474~20~20~General Supplies~Alliance~vendor~159,1179,1205,4496,4498,2512,2515,2516,2519,2946,3107,3131,3135,11291,4470,4471,5048
+N~812~Alma Jainrose~1433:0.163:0.456~20~20~Herbalism Trainer~Alliance~trainer~
+N~821~Captain Danuvin~1436:0.564:0.475~33~33~The People's Militia~Alliance~~
+N~822~Young Forest Bear~1429:0.636:0.781~8~9~~~~
+N~830~Sand Crawler~~14~14~~~~
+N~832~Dust Devil~~18~19~~~~
+N~833~Coyote Packleader~~11~11~~~~
+N~834~Coyote~1436:0.512:0.468~10~11~~~~
+N~840~Watcher Backus~1431:0.747:0.433~42~42~The Night Watch~Alliance~~
+N~857~Donal Osgood~~61~61~Arathi Basin Battlemaster~Alliance~~
+N~859~Guard Berton~1433:0.212:0.467~33~33~~Alliance~~
+N~869~Protector Dorana~~30~30~The People's Militia~Alliance~~
+N~874~Protector Korelor~~30~30~The People's Militia~Alliance~~
+N~877~Saltscale Forager~~35~35~~~~
+N~878~Scout Galiaan~1436:0.54:0.529~30~30~The People's Militia~Alliance~~
+N~883~Deer~~5~5~~~~
+N~888~Watcher Dodds~1431:0.451:0.671~29~29~The Night Watch~Alliance~~
+N~889~Splinter Fist Ogre~~25~25~~~~
+N~890~Fawn~~1~1~~~~
+N~891~Splinter Fist Fire Weaver~~26~26~~~~
+N~892~Splinter Fist Taskmaster~~27~28~~~~
+N~893~Lars~1431:0.077:0.334~18~18~~Alliance~~
+N~900~Bailiff Conacher~1433:0.245:0.443~30~30~~Alliance~~
+N~903~Guard Howe~1433:0.264:0.58~30~30~~Alliance~~
+N~905~Sharptooth Frenzy~~31~31~~~~
+N~909~Defias Night Blade~~25~26~~~~
+N~910~Defias Enchanter~~26~27~~~~
+N~923~Young Black Ravager~~23~24~~~~
+N~928~Lord Grayson Shadowbreaker~1453:0.485:0.502~60~60~Paladin Trainer~Alliance~~
+N~930~Black Widow Hatchling~~24~24~~~~
+N~931~Ariena Stormfeather~1433:0.256:0.594~55~55~Gryphon Master~Alliance~flight~
+N~934~Guard Clarke~~35~35~~Alliance~~
+N~948~Rotted One~~26~26~~~~
+N~949~Carrion Recluse~1431:0.165:0.382~25~26~~~~
+N~951~Brother Paxton~1429:0.496:0.404~27~27~Librarian~Alliance~~
+N~955~Sergeant De Vries~1429:0.241:0.731~10~10~Morale Officer~Alliance~vendor~2723,2593,2596,2594,2595,159,1179,1205,1708,1645,8766
+N~956~Dorin Songblade~1433:0.257:0.466~22~22~Armorer~Alliance~repair,vendor~285,1853,286,287,1852,718
+N~963~Deputy Rainer~1429:0.243:0.745~10~10~~Alliance~~
+N~1001~Watcher Hutchins~~20~20~The Night Watch~Alliance~~
+N~1011~Mosshide Trapper~~23~23~~~~
+N~1015~Highland Raptor~~23~24~~~~
+N~1016~Highland Lashtail~~24~24~~~~
+N~1017~Highland Scytheclaw~~26~26~~~~
+N~1020~Mottled Raptor~~22~23~~~~
+N~1021~Mottled Screecher~~24~24~~~~
+N~1024~Bluegill Murloc~~20~21~~~~
+N~1025~Bluegill Puddlejumper~~21~22~~~~
+N~1026~Bluegill Forager~~23~23~~~~
+N~1028~Bluegill Muckdweller~~24~24~~~~
+N~1030~Black Slime~~20~20~~~~
+N~1032~Black Ooze~~24~24~~~~
+N~1034~Dragonmaw Raider~~26~26~~~~
+N~1039~Fen Dweller~~21~21~~~~
+N~1040~Fen Creeper~~25~25~~~~
+N~1051~Dark Iron Dwarf~~27~28~~~~
+N~1052~Dark Iron Saboteur~~28~29~~~~
+N~1053~Dark Iron Tunneler~1437:0.608:0.248~29~30~~~~
+N~1054~Dark Iron Demolitionist~~31~31~~~~
+N~1057~Dragonmaw Bonewarder~~28~28~~~~
+N~1070~Deputy Feldon~1433:0.256:0.601~33~33~~Alliance~~
+N~1071~Longbraid the Grim~1437:0.498:0.183~35~35~~Alliance~~
+N~1072~Roggo Harlbarrow~1437:0.499:0.18~30~30~~Alliance~~
+N~1073~Ashlan Stonesmirk~1437:0.501:0.182~27~27~~Alliance~~
+N~1074~Motley Garmason~1437:0.497:0.183~30~30~~Alliance~~
+N~1075~Rhag Garmason~1437:0.499:0.183~25~25~~Alliance~~
+N~1076~Merrin Rockweaver~1437:0.389:0.523~30~30~Explorers' League~Alliance~~
+N~1077~Prospector Whelgar~1437:0.389:0.523~30~30~Explorers' League~Alliance~~
+N~1078~Ormer Ironbraid~1437:0.379:0.514~25~25~~Alliance~~
+N~1083~Murloc Shorestriker~1433:0.441:0.719~16~17~~~~
+N~1089~Mountaineer Cobbleflint~1432:0.221:0.73~30~30~~Alliance~~
+N~1090~Mountaineer Wallbang~1432:0.235:0.746~30~30~~Alliance~~
+N~1091~Mountaineer Gravelgaw~1432:0.235:0.764~30~30~~Alliance~~
+N~1092~Captain Rugelfuss~1432:0.232:0.737~40~40~~Alliance~~
+N~1093~Chief Engineer Hinderweir VII~1432:0.46:0.137~40~40~~Alliance~~
+N~1105~Jern Hornhelm~1432:0.37:0.469~15~15~Explorers' League~Alliance~~
+N~1109~Fleshripper~~13~14~~~~
+N~1110~Skeletal Raider~~27~28~~~~
+N~1111~Leech Stalker~~21~21~~~~
+N~1115~Rockjaw Skullthumper~~8~9~~~~
+N~1116~Rockjaw Ambusher~~9~10~~~~
+N~1117~Rockjaw Bonesnapper~1426:0.727:0.53~9~10~~~~
+N~1120~Frostmane Troll~~7~8~~~~
+N~1121~Frostmane Snowstrider~1426:0.412:0.445~8~9~~~~
+N~1122~Frostmane Hideskinner~~9~10~~~~
+N~1123~Frostmane Headhunter~1426:0.22:0.504~8~9~~~~
+N~1124~Frostmane Shadowcaster~~10~10~~~~
+N~1125~Crag Boar~~5~6~~~~
+N~1126~Large Crag Boar~~6~7~~~~
+N~1127~Elder Crag Boar~1426:0.599:0.586;1426:0.55:0.584~7~8~~~~
+N~1128~Young Black Bear~~5~6~~~~
+N~1131~Winter Wolf~1426:0.502:0.457;1426:0.496:0.478~7~8~~~~
+N~1134~Young Wendigo~~5~5~~~~
+N~1135~Wendigo~~6~7~~~~
+N~1138~Snow Tracker Wolf~~6~7~~~~
+N~1139~Magistrate Bluntnose~1432:0.346:0.446~20~20~~Alliance~~
+N~1151~Saltwater Crocolisk~~35~35~~~~
+N~1161~Stonesplinter Trogg~1432:0.307:0.725;1432:0.317:0.766~11~12~~~~
+N~1162~Stonesplinter Scout~1432:0.307:0.729;1432:0.308:0.756~11~12~~~~
+N~1163~Stonesplinter Skullthumper~1432:0.363:0.804;1432:0.354:0.838;1432:0.348:0.877~13~14~~~~
+N~1164~Stonesplinter Bonesnapper~~15~16~~~~
+N~1165~Stonesplinter Geomancer~~17~18~~~~
+N~1166~Stonesplinter Seer~1432:0.361:0.835~13~14~~~~
+N~1167~Stonesplinter Digger~~18~19~~~~
+N~1172~Tunnel Rat Vermin~~10~11~~~~
+N~1173~Tunnel Rat Scout~~10~11~~~~
+N~1174~Tunnel Rat Geomancer~~12~13~~~~
+N~1175~Tunnel Rat Digger~~13~13~~~~
+N~1176~Tunnel Rat Forager~~11~12~~~~
+N~1178~Mo'grosh Ogre~~19~19~~~~
+N~1179~Mo'grosh Enforcer~1432:0.672:0.339~18~19~~~~
+N~1180~Mo'grosh Brute~1432:0.757:0.181~19~20~~~~
+N~1181~Mo'grosh Shaman~~18~19~~~~
+N~1183~Mo'grosh Mystic~1432:0.734:0.251~19~20~~~~
+N~1184~Cliff Lurker~~14~14~~~~
+N~1186~Elder Black Bear~~11~12~~~~
+N~1188~Grizzled Black Bear~~13~14~~~~
+N~1190~Mountain Boar~1432:0.357:0.376~10~11~~~~
+N~1191~Mangy Mountain Boar~~14~14~~~~
+N~1195~Forest Lurker~~10~11~~~~
+N~1196~Ice Claw Bear~~7~8~~~~
+N~1197~Stonesplinter Shaman~1432:0.345:0.945;1432:0.355:0.917~15~16~~~~
+N~1200~Morbent Fel~~32~32~~~~
+N~1201~Snow Leopard~~7~8~~~~
+N~1202~Tunnel Rat Kobold~1432:0.263:0.437~11~12~~~~
+N~1205~Grawmug~~17~17~~~~
+N~1206~Gnasher~1432:0.345:0.913~16~16~~~~
+N~1207~Brawler~~16~16~~~~
+N~1210~Chok'sul~~22~22~~~~
+N~1211~Leper Gnome~~8~10~~~~
+N~1212~Bishop Farthing~1453:0.501:0.461~40~40~~Alliance~~
+N~1215~Alchemist Mallory~1429:0.398:0.483~26~26~Journeyman Alchemist~Alliance~trainer~
+N~1216~Shore Crawler~~18~18~~~~
+N~1217~Glorin Steelbrow~1437:0.106:0.606~25~25~~Alliance~~
+N~1218~Herbalist Pomeroy~1429:0.399:0.484~10~10~Herbalism Trainer~Alliance~trainer~
+N~1226~Maxan Anvol~1426:0.473:0.522~10~10~Priest Trainer~Alliance~trainer~
+N~1236~Kobold Digger~1436:0.45:0.206~12~13~~~~
+N~1237~Kazan Mogosh~1426:0.686:0.547~8~8~Food & Drink Merchant~Alliance~vendor~4540,4541,4542,4544,4601,8950,2070,414,422,1707,3927,8932,159,1179,1205,1708,1645,8766
+N~1239~First Mate Fitzsimmons~1437:0.109:0.596~30~30~~Alliance~~
+N~1241~Tognus Flintfire~1426:0.453:0.519~30~30~Journeyman Blacksmith~Alliance~~
+N~1242~Karl Boran~1437:0.084:0.586~30~30~~Alliance~~
+N~1243~Hegnar Rumbleshot~1426:0.407:0.651~12~12~Gunsmith~Alliance~~
+N~1244~Rethiel the Greenwarden~1437:0.562:0.404~30~30~~Alliance~~
+N~1246~Vosur Brakthel~1455:0.665:0.55~30~30~Journeyman Alchemist~Alliance~trainer~
+N~1247~Innkeeper Belm~1426:0.474:0.526~30~30~Innkeeper~Alliance~vendor~2894,2686,159,1179,1205,1708,1645,8766,4540,4541,4542,4544,4601,8950
+N~1251~Splinter Fist Firemonger~~29~29~~~~
+N~1252~Senir Whitebeard~1426:0.468:0.538~9~12~~Alliance~~
+N~1253~Father Gavin~1426:0.577:0.448~15~15~The Argent Dawn~~~
+N~1254~Foreman Stonebrow~1426:0.691:0.563~12~12~Miners' League~Alliance~~
+N~1256~Quarrymaster Thesten~1426:0.692:0.549~10~10~Miners' League~Alliance~~
+N~1259~Gobbler~~22~22~~~~
+N~1265~Rudra Amberstill~1426:0.631:0.499~10~10~~Alliance~~
+N~1266~Tundra MacGrann~1426:0.346:0.516~20~20~~Alliance~~
+N~1267~Ragnar Thunderbrew~1426:0.468:0.524~30~30~~Alliance~~
+N~1269~Razzle Sprysprocket~1426:0.459:0.493~20~20~~Alliance~~
+N~1270~Fetid Corpse~~29~29~~~~
+N~1271~Old Icebeard~~11~11~~~~
+N~1273~Grawn Thromwyn~1426:0.453:0.522~10~10~Weaponsmith~Alliance~repair,vendor~2488,2489,2490,2491,2492,2493,2494,2495
+N~1274~Senator Barin Redstone~1455:0.396:0.571~50~50~~Alliance~~
+N~1279~Mountaineer Flint~~30~30~~Alliance~~
+N~1285~Thurman Mullby~1453:0.648:0.72~30~30~General Goods Vendor~Alliance~vendor~4540,159,2512,2516,3111,2947,7005,2901,277115,277114,277113,1179,1205,4498,4497,2515,3030,2519,3033,3107,3108,3135,3137,11291,4470,4471,4496,2946,3131,5048,5042,1708,1645,11285,11284,15327,15326
+N~1286~Edna Mullby~1453:0.647:0.714~30~30~Trade Supplier~Alliance~vendor~7005,2901,5956,6256,6217,2678,2320,2880,3371,4289,6529,2604,2324,6260,4536,277115,277114,277113,2321,4291,8343,2692,3713,3466,3857,2928,2325,4341,4342,4340,3372,8925,4399,4400,6530,6532,2605
+N~1289~Gunther Weller~1453:0.641:0.687~30~30~Weapons Merchant~Alliance~repair,vendor~851,1198,853,1196,852,1197,2207,854,2027,2024,2029,2025,2028,2026,2208,2030,923,922,927,926,925,924,2209,928,15810,15811
+N~1313~Maria Lumere~1453:0.558:0.856~30~30~Alchemy Supplies~Alliance~vendor~3371,3372,8925,18256,9301,765,2453,2449,785
+N~1318~Jessara Cordell~1453:0.529:0.742~30~30~Enchanting Supplies~Alliance~vendor~6217,247786,4470,11291,20758,20752,20753,6342,22307
+N~1321~Alyssa Griffith~1453:0.718:0.623~30~30~Bag Vendor~Alliance~vendor~4496,4498,4497,4499
+N~1325~Jasper Fel~1453:0.802:0.702~30~30~Shady Dealer~Alliance~~
+N~1340~Mountaineer Kadrell~1432:0.335:0.49;1432:0.352:0.469~30~30~~Alliance~~
+N~1342~Mountaineer Rockgar~1432:0.255:0.106~30~30~~Alliance~~
+N~1343~Mountaineer Stormpike~1432:0.247:0.183~30~30~~Alliance~~
+N~1344~Prospector Ironband~1432:0.658:0.657~15~15~~Alliance~~
+N~1345~Magmar Fellhew~1432:0.648:0.666~15~15~~Alliance~~
+N~1356~Prospector Stormpike~1455:0.745:0.12~30~30~~Alliance~~
+N~1362~Gothor Brumn~1432:0.241:0.181~20~20~Armorer~Alliance~repair,vendor~847,1845,848,849,1846,850
+N~1364~Balgaras the Foul~~34~34~~~~
+N~1373~Jarven Thunderbrew~1426:0.476:0.526~15~15~~Alliance~~
+N~1374~Rejold Barleybrew~1426:0.302:0.458~10~10~~Alliance~~
+N~1375~Marleth Barleybrew~1426:0.302:0.456~12~12~~Alliance~~
+N~1376~Beldin Steelgrill~1426:0.504:0.491~12~12~~Alliance~~
+N~1377~Pilot Stonegear~1426:0.496:0.486~20~20~~Alliance~~
+N~1378~Pilot Bellowfiz~1426:0.494:0.484~18~18~~Alliance~~
+N~1379~Miran~1432:0.522:0.694~15~15~~Alliance~~
+N~1380~Saean~~10~10~~~~
+N~1387~Thysta~1434:0.325:0.293~55~55~Wind Rider Master~Horde~flight~
+N~1388~Vagash~~11~11~~~~
+N~1393~Berserk Trogg~~19~20~~~~
+N~1397~Frostmane Seer~~8~9~~~~
+N~1400~Wetlands Crocolisk~1437:0.198:0.549~23~24~~~~
+N~1412~Squirrel~~1~1~~~~
+N~1416~Grimand Elmore~1453:0.597:0.339~50~50~~Alliance~~
+N~1417~Young Wetlands Crocolisk~1437:0.061:0.58;1437:0.062:0.476~21~22~~~~
+N~1418~Bluegill Raider~~28~29~~~~
+N~1424~Master Digger~~15~15~~~~
+N~1426~Riverpaw Miner~~14~15~~~~
+N~1431~Suzetta Gallina~1453:0.602:0.767~30~30~~Alliance~~
+N~1432~Renato Gallina~1453:0.638:0.734~45~45~~Alliance~~
+N~1434~Menethil Sentry~~40~40~~Alliance~~
+N~1436~Watcher Cutford~~37~37~The Night Watch~Alliance~~
+N~1440~Milton Sheaf~1453:0.77:0.303~15~15~Librarian~Alliance~~
+N~1444~Brother Kristoff~1453:0.551:0.543~40~40~~Alliance~~
+N~1448~Neal Allen~1437:0.107:0.568~20~20~Engineering & General Goods Supplier~Alliance~vendor~5956,2901,4399,4400,2880,3466,10648,10647,4357,4364,159,1179,1205,4498,4497,2515,3030,2519,3033,3107,3108,3135,3137,11291,4470,4471
+N~1451~Camerick Jongleur~~25~25~Wandering Minstrel~Alliance~~
+N~1453~Dewin Shimmerdawn~1437:0.08:0.564~25~25~Alchemy Supplies~Alliance~vendor~3371,3372,8925,18256,929
+N~1454~Jennabink Powerseam~1437:0.081:0.559~25~25~Tailoring Supplies & Specialty Goods~Alliance~repair,vendor~4829,4792,4793,4790,5772,6275,2320,2321,4291,8343,14341,2324,2604,6260,2605,4341,4340,6261,2325,4342,10290,253665,253668
+N~1458~Telurinon Moonshadow~1437:0.08:0.559~25~25~Herbalism Trainer~Alliance~trainer~
+N~1462~Edwina Monzor~1437:0.111:0.583~25~25~Fletcher~Alliance~repair,vendor~5439,11362,2512,2515,3030
+N~1464~Innkeeper Helbrek~1437:0.107:0.609~30~30~Innkeeper~Alliance~vendor~159,1179,1205,1708,1645,8766,117,2287,3770,3771,4599,8952,2594
+N~1480~Caitlin Grassman~1437:0.119:0.588~20~20~~Alliance~~
+N~1493~Mok'rash~~50~50~~~~
+N~1548~Cursed Darkhound~~8~8~~~~
+N~1571~Shellei Brondir~1437:0.095:0.597~55~55~Gryphon Master~Alliance~flight~
+N~1572~Thorgrum Borrelson~1432:0.339:0.509~55~55~Gryphon Master~Alliance~flight~
+N~1573~Gryth Thurden~1455:0.556:0.48~55~55~Gryphon Master~Alliance~flight~
+N~1645~Quartermaster Hicks~1429:0.254:0.739~10~10~Master Weaponsmith~Alliance~repair,vendor~2520,2521,2522,2523,2524,2525,2526,2527
+N~1646~Baros Alexston~1453:0.576:0.479~30~30~City Architect~Alliance~~
+N~1651~Lee Brown~1429:0.475:0.623;1429:0.485:0.595;1429:0.489:0.648~8~8~Fisherman~Alliance~trainer~
+N~1668~William MacGregor~1436:0.577:0.539~15~15~Bowyer~Alliance~repair,vendor~5439,11362,2512,2515,2507,3026,11304
+N~1669~Defias Profiteer~1436:0.435:0.669~20~20~Free Wheeling Merchant~~repair,vendor~846,1843,845,843,1844,844,4788,4789,5640
+N~1680~Matthew Hooper~1433:0.218:0.511~10~10~Fishing Trainer~Alliance~trainer~
+N~1681~Brock Stoneseeker~1432:0.372:0.469~15~15~Mining Trainer~Alliance~~
+N~1689~Scarred Crag Boar~~10~10~~~~
+N~1694~Loslor Rudge~1426:0.501:0.494~10~10~Engineering Supplies~Alliance~~
+N~1698~Frast Dokner~1426:0.689:0.559~10~10~Apprentice Weaponsmith~Alliance~repair,vendor~2488,2489,2490,2491,2492,2493,2494,2495
+N~1699~Gremlock Pilsnor~1426:0.477:0.523~10~10~Cooking Trainer~Alliance~trainer~
+N~1700~Paxton Ganter~1426:0.354:0.402~10~10~Fisherman~Alliance~trainer~
+N~1718~Rockjaw Raider~~3~4~~~~
+N~1719~Warden Thelwater~1453:0.515:0.694~30~30~~Alliance~~
+N~1721~Nikova Raskol~1453:0.763:0.609~5~5~~Alliance~~
+N~1727~Defias Worker~~16~16~~~~
+N~1747~Anduin Wrynn~~5~5~King of Stormwind~Alliance~~
+N~1748~Highlord Bolvar Fordragon~1453:0.801:0.384~~~~Alliance~~
+N~1749~Lady Katrana Prestor~1453:0.8:0.383~62~62~~Alliance~~
+N~1754~Lord Gregor Lescovar~~31~31~~Alliance~~
+N~1755~Marzon the Silent Blade~~30~30~~Alliance~~
+N~1756~Onyxia's Elite Guard~~60~60~~~~
+N~1872~Tharek Blackstone~1426:0.46:0.517~12~12~~Alliance~~
+N~1922~Gray Forest Wolf~1429:0.642:0.654~7~8~~~~
+N~1933~Sheep~~3~3~~~~
+N~1958~Vile Fin Tidecaller~~17~18~~~~
+N~1959~Mountaineer Barleybrew~1426:0.863:0.488~20~20~~Alliance~~
+N~1963~Vidra Hearthstove~1432:0.348:0.491~10~10~~Alliance~~
+N~1977~Senator Mehr Stonehallow~1426:0.686:0.559~50~50~~Alliance~~
+N~1981~Dark Iron Ambusher~~10~10~~~~
+N~2044~Forlorn Spirit~~25~26~~~~
+N~2057~Huldar~1432:0.522:0.694~15~15~~Alliance~~
+N~2069~Moonstalker~1439:0.508:0.255~14~15~~~~
+N~2070~Moonstalker Runt~~10~17~Moonstalker Matriarch's Pet~~~
+N~2071~Moonstalker Matriarch~~19~20~~~~
+N~2086~Valstag Ironjaw~1437:0.101:0.568~25~25~~Alliance~~
+N~2089~Giant Wetlands Crocolisk~~26~26~~~~
+N~2094~James Halloran~1437:0.085:0.559~25~25~~Alliance~~
+N~2096~Tarrel Rockweaver~1437:0.115:0.522~25~25~~Alliance~~
+N~2097~Harlo Barnaby~1437:0.108:0.558~25~25~~Alliance~~
+N~2098~Ram~~5~5~~~~
+N~2099~Maiden's Virtue Crewman~~20~20~~Alliance~~
+N~2102~Dragonmaw Grunt~~21~21~~~~
+N~2104~Captain Stoutfist~1437:0.099:0.574~35~35~~Alliance~~
+N~2111~Sida~1437:0.118:0.58~20~20~~Alliance~~
+N~2149~Dark Iron Raider~~14~14~~~~
+N~2156~Cracked Golem~~18~19~~~~
+N~2157~Stone Behemoth~~20~20~~~~
+N~2158~Gravelflint Scout~~18~19~~~~
+N~2160~Gravelflint Geomancer~~21~21~~~~
+N~2163~Thistle Bear~~11~12~~~~
+N~2164~Rabid Thistle Bear~1439:0.485:0.328~13~14~~~~
+N~2165~Grizzled Thistle Bear~~16~17~~~~
+N~2167~Blackwood Pathfinder~~12~13~~~~
+N~2168~Blackwood Warrior~~16~17~~~~
+N~2169~Blackwood Totemic~~17~18~~~~
+N~2170~Blackwood Ursa~~19~19~~~~
+N~2171~Blackwood Shaman~~19~20~~~~
+N~2176~Cursed Highborne~~10~11~~~~
+N~2177~Writhing Highborne~~11~12~~~~
+N~2178~Wailing Highborne~~12~13~~~~
+N~2179~Stormscale Wave Rider~1439:0.55:0.368~15~16~~~~
+N~2180~Stormscale Siren~1439:0.554:0.359~16~17~~~~
+N~2181~Stormscale Myrmidon~~18~19~~~~
+N~2182~Stormscale Sorceress~~19~20~~~~
+N~2185~Darkshore Thresher~1439:0.355:0.374~12~14~~~~
+N~2187~Elder Darkshore Thresher~~16~18~~~~
+N~2189~Vile Sprite~1439:0.448:0.391~10~11~~~~
+N~2190~Wild Grell~~11~12~~~~
+N~2201~Greymist Raider~~12~12~~~~
+N~2202~Greymist Coastrunner~1439:0.383:0.288~12~13~~~~
+N~2203~Greymist Seer~~14~14~~~~
+N~2204~Greymist Netter~~14~14~~~~
+N~2205~Greymist Warrior~~15~16~~~~
+N~2206~Greymist Hunter~~16~17~~~~
+N~2207~Greymist Oracle~~18~19~~~~
+N~2208~Greymist Tidehunter~~19~20~~~~
+N~2212~Deth'ryll Satyr~~12~13~~~~
+N~2228~Lieutenant Farren Orinelle~1424:0.514:0.584~25~25~~Alliance~~
+N~2231~Pygmy Tide Crawler~~9~10~~~~
+N~2232~Tide Crawler~~14~14~~~~
+N~2233~Encrusted Tide Crawler~~18~20~~~~
+N~2234~Young Reef Crawler~1439:0.366:0.531~10~11~~~~
+N~2235~Reef Crawler~1439:0.453:0.209~15~17~~~~
+N~2236~Raging Reef Crawler~~20~21~~~~
+N~2237~Moonstalker Sire~~17~18~~~~
+N~2244~Syndicate Shadow Mage~~22~22~~~~
+N~2263~Marshal Redpath~1424:0.495:0.587~41~41~~Alliance~~
+N~2269~Hillsbrad Miner~~27~27~~Alliance~~
+N~2270~Hillsbrad Sentry~~27~27~~Alliance~~
+N~2271~Dalaran Shield Guard~~32~32~~Alliance~~
+N~2276~Magistrate Henry Maleb~1424:0.482:0.592~60~60~~Alliance~~
+N~2277~Loremaster Dibbs~1424:0.505:0.57~30~30~~Alliance~~
+N~2285~Count Remington Ridgewell~1453:0.77:0.477~40~40~House of Nobles~Alliance~~
+N~2321~Foreststrider Fledgling~~12~13~~~~
+N~2322~Foreststrider~~14~16~~~~
+N~2323~Giant Foreststrider~~17~19~~~~
+N~2324~Blackwood Windtalker~1439:0.401:0.536~13~14~~~~
+N~2326~Thamner Pol~1426:0.472:0.526~10~10~Physician~Alliance~trainer~
+N~2327~Shaina Fuller~1453:0.529:0.448~35~35~First Aid Trainer~Alliance~trainer~
+N~2336~Dark Strand Fanatic~~16~17~~~~
+N~2338~Twilight Disciple~~17~17~~~~
+N~2339~Twilight Thug~~17~18~~~~
+N~2348~Elder Moss Creeper~~27~27~~~~
+N~2349~Giant Moss Creeper~~24~25~~~~
+N~2350~Forest Moss Creeper~~20~21~~~~
+N~2351~Gray Bear~~22~22~~~~
+N~2354~Vicious Gray Bear~~22~23~~~~
+N~2356~Elder Gray Bear~~25~26~~~~
+N~2366~Barkeep Kelly~1424:0.515:0.586~40~40~Bartender~Alliance~vendor~159,1179,1205,1708,1645,8766
+N~2369~Daggerspine Shorehunter~1424:0.561:0.644~30~31~~~~
+N~2371~Daggerspine Siren~1424:0.577:0.665;1424:0.585:0.691~31~32~~~~
+N~2374~Torn Fin Muckdweller~~28~29~~~~
+N~2375~Torn Fin Coastrunner~1424:0.251:0.714~29~30~~~~
+N~2376~Torn Fin Oracle~1424:0.439:0.681;1424:0.368:0.695~30~31~~~~
+N~2377~Torn Fin Tidehunter~1424:0.368:0.695;1424:0.39:0.683~31~32~~~~
+N~2381~Micha Yance~1424:0.49:0.551~40~40~Trade Goods~Alliance~vendor~2901,5956,6217,2320,2321,4291,2678,2692,3713,2880,3466,3857,2324,3371,3372,4289,4399,4400,6530,6532,159,10284,4471,4470,11291,272941,21099,21219,4536,5788,11163
+N~2382~Darren Malvew~1424:0.524:0.56~30~30~Stablehand~Alliance~~
+N~2384~Starving Mountain Lion~~23~24~~~~
+N~2385~Feral Mountain Lion~~28~28~~~~
+N~2386~Southshore Guard~~55~55~~Alliance~~
+N~2389~Zarise~~55~55~Bat Handler~Horde~~
+N~2406~Mountain Lion~~32~32~~~~
+N~2408~Snapjaw~1424:0.676:0.364~30~31~~~~
+N~2409~Felicia Maline~1431:0.775:0.444~55~55~Gryphon Master~Alliance~flight~
+N~2430~Chef Jessen~1424:0.519:0.587~35~35~~Alliance~~
+N~2432~Darla Harris~1424:0.494:0.523~55~55~Gryphon Master~Alliance~flight~
+N~2438~Bartolo Ginsetti~1424:0.495:0.556~32~32~~Alliance~~
+N~2439~Major Samuelson~1453:0.759:0.368~50~50~Stormwind City Guard~Alliance~~
+N~2442~Cow~~5~5~~~~
+N~2457~John Burnside~1453:0.633:0.812~45~45~Banker~Alliance~bank~
+N~2461~Bailey Stonemantle~1455:0.356:0.604~45~45~Banker~Alliance~bank~
+N~2466~Mountaineer Grugelm~~30~30~~Alliance~~
+N~2499~Markel Smythe~~38~38~~~~
+N~2504~Donyal Tovald~~15~15~Librarian~Alliance~~
+N~2523~Searing Totem~~11~15~Modin Kolgrund's Totem~Alliance~~
+N~2524~Mountaineer Haggis~~30~30~~Alliance~~
+N~2526~Mountaineer Morlic~~30~30~~Alliance~~
+N~2527~Mountaineer Angst~~30~30~~Alliance~~
+N~2555~Witherbark Witch Doctor~~34~34~~~~
+N~2559~Highland Strider~~30~31~~~~
+N~2560~Highland Thrasher~~33~34~~~~
+N~2562~Boulderfist Ogre~~32~33~~~~
+N~2563~Plains Creeper~~32~33~~~~
+N~2565~Giant Plains Creeper~~35~35~~~~
+N~2566~Boulderfist Brute~~36~36~~~~
+N~2578~Young Mesa Buzzard~~32~32~~~~
+N~2584~Stromgarde Defender~~39~39~~Alliance~~
+N~2626~Old Man Heming~1434:0.274:0.771~43~43~Fisherman~~vendor~16083,6256,6529,6530,6532,273636
+N~2635~Elder Saltwater Crocolisk~~38~38~~~~
+N~2663~Narkk~1434:0.282:0.744~42~42~Pirate Supplies~~vendor~8495,8496,10728
+N~2664~Kelsey Yance~1434:0.282:0.744~43~43~Cook~~vendor~159,2678,2692,3713,10284,4471,4470,11291,272941,21099,21219,4536,6039,6369,17062,13940,13941,13943
+N~2671~Mechanical Squirrel~~27~27~Fritz Whizzby's Companion~Alliance~~
+N~2679~Wenna Silkbeard~1437:0.256:0.258~28~28~Special Goods Dealer~Alliance~repair,vendor~4831,4830,4832,4833,7114,4827,7613
+N~2682~Fradd Swiftgear~1437:0.264:0.258~24~24~Engineering Supplies~Alliance~vendor~5956,2901,4399,4400,2880,3466,10648,10647,4361,4357,4364,13309,4363
+N~2700~Captain Nials~1417:0.459:0.475~41~41~~Alliance~~
+N~2705~Brewmeister Bilger~1424:0.521:0.587~33~33~~Alliance~~
+N~2711~Phin Odelic~1424:0.503:0.59~36~36~~Alliance~~
+N~2712~Quae~1417:0.602:0.539~38~38~~Alliance~~
+N~2762~Thundering Exile~~38~39~~~~
+N~2786~Gerrig Bonegrip~1455:0.507:0.059~30~30~~Alliance~~
+N~2788~Apprentice Kryten~1417:0.461:0.477~30~30~~Alliance~~
+N~2805~Deneb Walker~1417:0.27:0.588~45~45~Scrolls & Potions~Alliance~vendor~16084,16112,16113,17034,17035,17036,17037,17038,17031,17032,17020,17030,17033,17028,17029,17021,17026,5565,16583,21177,5431,13362,8925,16747,3372,3371
+N~2812~Drovnar Strongbrew~1417:0.463:0.469~40~40~Alchemy Supplies~Alliance~vendor~3371,3372,8925,18256,6056
+N~2832~Nixxrax Fillamug~1434:0.271:0.772~38~38~Food and Drink~~~
+N~2835~Cedrik Prose~1417:0.457:0.461~55~55~Gryphon Master~Alliance~flight~
+N~2839~Haren Kanmae~1434:0.283:0.745~41~41~Superior Bowyer~~repair,vendor~5439,11362,2512,2515,3030,11285,3026,3027
+N~2851~Urda~~55~55~Wind Rider Master~Horde~~
+N~2858~Gringer~~55~55~Wind Rider Master~Horde~~
+N~2859~Gyll~1434:0.275:0.777~55~55~Gryphon Master~Alliance~flight~
+N~2878~Peria Lamenur~~40~40~Pet Trainer~Alliance~~
+N~2911~Archaeologist Flagongut~1437:0.108:0.604~44~44~Explorers' League~Alliance~~
+N~2912~Chief Archaeologist Greywhisker~1457:0.314:0.843~40~40~Explorers' League~Alliance~~
+N~2913~Archaeologist Hollee~1439:0.375:0.418~12~12~Explorers' League~Alliance~~
+N~2914~Snake~~1~1~~~~
+N~2917~Prospector Remtravel~1439:0.358:0.837~16~16~Explorers' League~Alliance~~
+N~2930~Sentinel Glynda Nal'Shea~1439:0.377:0.434~45~45~~Alliance~~
+N~2946~Puppet of Helcular~~44~44~Helcular's Remains's Guardian~Horde~~
+N~3096~Captured Servant of Azora~1433:0.694:0.794~22~22~Specialist Tailoring Supplies~~vendor~4792,4790,2320,2321,4291,8343,14341,2324,2604,6260,2605,4341,4340,6261,2325,4342,10290,253665,253668
+N~3100~Elder Mottled Boar~~9~9~~~~
+N~3181~Fremal Doohickey~1437:0.108:0.613~30~30~First Aid Trainer~Alliance~trainer~
+N~3234~Lost Barrens Kodo~~15~15~~~~
+N~3238~Stormhide~~23~23~~~~
+N~3239~Thunderhead~~20~21~~~~
+N~3242~Zhevra Runner~~13~14~~~~
+N~3244~Greater Plainstrider~1413:0.511:0.334~11~12~~~~
+N~3245~Ornery Plainstrider~~17~17~~~~
+N~3246~Fleeting Plainstrider~~12~13~~~~
+N~3249~Greater Thunderhawk~~24~24~~~~
+N~3254~Sunscale Lashtail~~12~13~~~~
+N~3255~Sunscale Screecher~1413:0.499:0.385~13~15~~~~
+N~3256~Sunscale Scytheclaw~~17~17~~~~
+N~3265~Razormane Hunter~~11~12~~~~
+N~3266~Razormane Defender~1413:0.567:0.246~12~13~~~~
+N~3267~Razormane Water Seeker~~10~11~~~~
+N~3268~Razormane Thornweaver~1413:0.541:0.251~10~11~~~~
+N~3269~Razormane Geomancer~1413:0.569:0.248~12~13~~~~
+N~3271~Razormane Mystic~~13~14~~~~
+N~3272~Kolkar Wrangler~1413:0.476:0.412~12~13~~~~
+N~3273~Kolkar Stormer~1413:0.475:0.388~13~14~~~~
+N~3274~Kolkar Pack Runner~~14~15~~~~
+N~3275~Kolkar Marauder~~15~16~~~~
+N~3284~Venture Co. Drudger~~14~15~~~~
+N~3285~Venture Co. Peon~~13~14~~~~
+N~3291~Greishan Ironstove~1432:0.294:0.601;1432:0.273:0.661;1432:0.228:0.708~24~24~Traveling Merchant~Alliance~vendor~4540,4541,4542,4544,4601,8950
+N~3300~Adder~~1~1~~~~
+N~3310~Doras~1454:0.453:0.64~55~55~Wind Rider Master~Horde~flight~
+N~3318~Koma~1454:0.499:0.688~45~45~Banker~Horde~bank~
+N~3319~Sana~1454:0.559:0.729~30~30~Mail Armor Merchant~Horde~repair,vendor~2398,2399,2400,2401,2402,2403,17185,2376,847,1845,848,849,1846,850,17187,1202,285,1853,286,287,1852,718,17188,2445
+N~3324~Grol'dar~1454:0.48:0.462~50~50~Warlock Trainer~Horde~trainer~
+N~3325~Mirket~1454:0.485:0.47~50~50~Warlock Trainer~Horde~trainer~
+N~3329~Kor'jus~1454:0.491:0.541~30~30~Mushroom Vendor~Horde~vendor~4604,4605,4606,4607,4608,8948
+N~3337~Kargal Battlescar~1413:0.623:0.194~15~15~~Horde~~
+N~3338~Sergra Darkthorn~1413:0.522:0.31~60~60~~Horde~~
+N~3339~Captain Thalo'thas Brightsun~1413:0.623:0.39~25~25~~~~
+N~3379~Burning Blade Bruiser~~11~11~~~~
+N~3380~Burning Blade Acolyte~~11~12~~~~
+N~3389~Regthar Deathgate~1413:0.453:0.284~28~28~~Horde~~
+N~3390~Apothecary Helbrim~1413:0.515:0.302~22~22~~Horde~~
+N~3391~Gazlowe~1413:0.627:0.363~60~60~~~~
+N~3397~Kolkar Bloodcharger~~14~15~~~~
+N~3415~Savannah Huntress~~11~11~~~~
+N~3419~Apothecary Zamah~1456:0.23:0.21~22~22~Royal Apothecary Society~Horde~~
+N~3425~Savannah Prowler~1413:0.585:0.412~14~15~~~~
+N~3429~Thork~1413:0.515:0.308~42~42~~Horde~~
+N~3430~Mangletooth~1413:0.446:0.592~17~17~~Horde~~
+N~3432~Mankrik~1413:0.52:0.315~15~15~~Horde~~
+N~3438~Kreenig Snarlsnout~~15~15~~~~
+N~3442~Sputtervalve~1413:0.63:0.372~15~15~Tinkers' Union~~~
+N~3446~Mebok Mizzyrix~1413:0.624:0.376~17~17~~~~
+N~3448~Tonga Runetotem~1413:0.522:0.319~22~22~~Horde~~
+N~3449~Darsok Swiftdagger~1413:0.516:0.309~14~14~~Horde~~
+N~3453~Wharfmaster Dizzywig~1413:0.633:0.384~15~15~~~~
+N~3461~Oasis Snapjaw~~15~16~~~~
+N~3464~Gazrog~1413:0.519:0.304~25~25~~Horde~~
+N~3466~Zhevra Courser~~20~20~~~~
+N~3479~Nargal Deatheye~1413:0.512:0.292~35~35~Weaponsmith~Horde~repair,vendor~851,1198,853,1196,852,1197,2207,854
+N~3486~Halija Whitestrider~1413:0.522:0.319~19~19~Clothier~Horde~repair,vendor~16059,3428,16060,837,3589,838,840,3590,839,4792,4793,4790,4786,4782,4781
+N~3487~Kalyimah Stormcloud~1413:0.523:0.32~23~23~Bags & Sacks~Horde~vendor~4496,4498,4497
+N~3489~Zargh~1413:0.526:0.299~16~16~Butcher~Horde~~
+N~3521~Ak'Zeloth~1413:0.624:0.2~22~22~~Horde~~
+N~3540~Hal McAllister~1424:0.508:0.627~40~40~Fish Merchant~Alliance~vendor~6303,6289,6308,6362,4603,8959
+N~3543~Robert Aebischer~1424:0.512:0.569~40~40~Superior Armorsmith~Alliance~repair,vendor~285,1853,286,287,1852,718,4797,4798,4799,4800
+N~3560~Healing Ward~~17~18~Blackwood Totemic's Totem~~~
+N~3583~Barithras Moonshade~1439:0.373:0.437~14~14~~Alliance~~
+N~3584~Therylune~~17~17~~Alliance~~
+N~3607~Androl Oakhand~1438:0.559:0.935~37~37~Fisherman~Alliance~trainer~
+N~3615~Devrak~1413:0.515:0.303~55~55~Wind Rider Master~Horde~flight~
+N~3616~Onu~1439:0.435:0.763~55~55~Ancient of Lore~Alliance~~
+N~3639~Sentinel Tysha Moonblade~1439:0.403:0.597~10~10~~Alliance~~
+N~3644~Cerellean Whiteclaw~1439:0.357:0.436~15~15~~Alliance~~
+N~3649~Thundris Windweaver~1439:0.374:0.402~15~15~~Alliance~~
+N~3650~Asterion~1439:0.442:0.363~15~15~~Alliance~~
+N~3657~Sentinel Elissa Starbreeze~1439:0.391:0.435~20~20~~Alliance~~
+N~3661~Balthule Shadowstrike~1439:0.55:0.249~15~15~~Alliance~~
+N~3663~Delgren the Purifier~1440:0.262:0.386~19~19~~Alliance~~
+N~3666~Wizbang Cranktoggle~1439:0.37:0.441~15~15~~Alliance~~
+N~3667~Anaya Dawnrunner~~16~16~~~~
+N~3691~Raene Wolfrunner~1440:0.366:0.496~60~60~~Alliance~~
+N~3692~Volcor~1439:0.45:0.854~19~19~~Alliance~~
+N~3693~Terenthis~1439:0.393:0.435~15~15~~Alliance~~
+N~3694~Sentinel Selarin~1439:0.393:0.435~20~20~~Alliance~~
+N~3695~Grimclaw~~13~13~~Alliance~~
+N~3701~Tharnariun Treetender~1439:0.388:0.434~18~18~~Alliance~~
+N~3702~Alanndarian Nightsong~1439:0.377:0.407~19~21~Pet Trainer~Alliance~~
+N~3717~Wrathtail Sorceress~~19~19~~~~
+N~3814~Spined Crawler~~21~21~~~~
+N~3836~Mountaineer Pebblebitty~~44~44~~Alliance~~
+N~3838~Vesprystus~1438:0.584:0.94~55~55~Hippogryph Master~Alliance~flight~
+N~3841~Caylais Moonfeather~1439:0.364:0.456~55~55~Hippogryph Master~Alliance~flight~
+N~3902~Searing Totem II~~21~21~Auric Runeson's Totem~Alliance~~
+N~3936~Shandris Feathermoon~~62~62~General of the Sentinel Army~Alliance~~
+N~3939~Razormane Wolf~1413:0.538:0.253~7~8~Razormane Hunter's Pet~~~
+N~3961~Maliynn~1440:0.366:0.499~19~19~Food & Drink Vendor~Alliance~vendor~16166,16167,16170,16169,16168,21030,21033,21031,4536,4537,4538,4539,4602,8953,159,1179,1205,1708,1645,8766
+N~3969~Fahran Silentblade~1440:0.365:0.495~28~28~Tools & Supplies~Alliance~vendor~5060,3371,3372,8925,5140,2928,8924,2930,8923,5173
+N~3979~Librarian Mae Paledust~1455:0.747:0.123~30~30~Explorers' League~Alliance~~
+N~3986~Sarilus Foulborne~~25~25~~Horde~~
+N~4007~Deepmoss Venomspitter~~17~18~~~~
+N~4009~Raging Cliff Stormer~~19~19~~~~
+N~4013~Pridewing Skyhunter~~24~24~~~~
+N~4018~Antlered Courser~~22~23~~~~
+N~4021~Corrosive Sap Beast~~25~25~~~~
+N~4028~Charred Ancient~~26~26~~~~
+N~4036~Rogue Flame Spirit~~24~24~~~~
+N~4041~Scorched Basilisk~~28~28~~~~
+N~4044~Blackened Basilisk~~23~24~~~~
+N~4049~Seereth Stonebreak~1413:0.353:0.278~26~26~~Horde~~
+N~4057~Son of Cenarius~~24~25~~Alliance~~
+N~4062~Dark Iron Bombardier~~30~30~~~~
+N~4064~Blackrock Scout~~20~21~~~~
+N~4065~Blackrock Sentry~~21~22~~~~
+N~4067~Twilight Runner~~23~23~~~~
+N~4075~Rat~~1~1~~~~
+N~4078~Collin Mauren~1453:0.529:0.865~32~32~~Alliance~~
+N~4084~Chylina~1442:0.356:0.062~24~24~General Supplies~Alliance~vendor~159,1179,1205,4496,4498,2512,2515,2516,2519,2946,3107,3131,3135,11291,4470,4471,5048,117,2287,3770,3771,4599,8952
+N~4127~Hecklefang Hyena~~15~16~~~~
+N~4128~Hecklefang Stalker~~23~23~~~~
+N~4160~Ainethil~1457:0.55:0.24~46~46~Artisan Alchemist~Alliance~trainer~
+N~4188~Illyanie~1442:0.354:0.07~25~25~Cloth Armor Merchant~Alliance~repair,vendor~200,3597,201,202,3598,203,2160,3591,2159,2156,3592,2158
+N~4194~Ullanna~1439:0.438:0.763~15~15~Trade Supplies~Alliance~vendor~7005,5956,2901,6256,6217,3371,2320,2321,2678,2692,2880,4289,6529,6530,2605,6260,2604,2324
+N~4195~Tiyani~1439:0.437:0.766~15~15~Food & Drink Vendor~Alliance~vendor~16166,16167,16170,16169,16168,21030,21033,21031,159,1179,1205,1708,1645,8766
+N~4200~Laird~1439:0.368:0.443~14~14~Fish Vendor~Alliance~vendor~5485,6303,6289,6308,6362,4603,8959
+N~4210~Alegorn~1457:0.492:0.212~35~35~Cooking Trainer~Alliance~trainer~
+N~4223~Fyldan~1457:0.487:0.215~30~30~Cooking Supplier~Alliance~vendor~159,2678,2692,3713,10284,4471,4470,11291,272941,21099,21219,4536
+N~4256~Golnir Bouldertoe~1455:0.511:0.261~30~30~Mining Supplier~Alliance~~
+N~4267~Daelyshia~~55~55~Hippogryph Master~Alliance~~
+N~4305~Kriggon Talsone~1436:0.362:0.901~25~25~Fisherman~Alliance~vendor~5528,6326,6368,16111,6303,6289,6308,6362,4603,8959
+N~4307~Heldan Galesong~1439:0.37:0.564~25~25~Fisherman~Alliance~vendor~5528,6368,6369,17062,6303,6289,6308,6362,4603,8959
+N~4312~Tharm~1442:0.452:0.599~55~55~Wind Rider Master~Horde~flight~
+N~4316~Kolkar Packhound~~13~13~~~~
+N~4321~Baldruc~1445:0.675:0.513~55~55~Gryphon Master~Alliance~flight~
+N~4342~Drywallow Vicejaw~~36~36~~~~
+N~4407~Teloren~1442:0.364:0.072~55~55~Hippogryph Master~Alliance~flight~
+N~4462~Blackrock Hunter~~23~24~~~~
+N~4463~Blackrock Summoner~~22~23~~~~
+N~4464~Blackrock Gladiator~~24~25~~~~
+N~4551~Michael Garrett~~55~55~Bat Handler~Horde~~
+N~4648~Gelkis Stamper~~34~34~~~~
+N~4693~Dread Flyer~~36~36~~~~
+N~4696~Scorpashi Snapper~~30~30~~~~
+N~4726~Raging Thunder Lizard~~33~33~~~~
+N~4727~Elder Thunder Lizard~~38~38~~~~
+N~4728~Gritjaw Basilisk~~31~32~~~~
+N~4783~Dawnwatcher Selgorm~1457:0.559:0.242~25~25~The Argent Dawn~~~
+N~4784~Argent Guard Manados~1457:0.555:0.241~23~23~The Argent Dawn~~~
+N~4786~Dawnwatcher Shaedlass~1457:0.555:0.248~22~22~The Argent Dawn~~~
+N~4789~Fallenroot Rogue~~21~22~~~~
+N~4803~Blackfathom Oracle~~21~22~~~~
+N~4844~Shadowforge Surveyor~~35~35~~~~
+N~4959~Jorgen~1453:0.762:0.852~15~15~~Alliance~~
+N~4960~Bishop DeLavey~1453:0.801:0.44~32~32~~Alliance~~
+N~4961~Dashel Stonefist~1453:0.741:0.592~26~26~~Alliance~~
+N~4962~Tapoke "Slim" Jahn~~34~34~~Alliance~~
+N~4963~Mikhail~1437:0.106:0.608~30~30~Bartender~Alliance~vendor~2723,2593,2596,2594,2595
+N~4969~Old Town Thug~~25~26~~Alliance~~
+N~4971~Slim's Friend~~34~34~Tapoke "Slim" Jahn's Guardian~Alliance~~
+N~4982~Thomas~1453:0.505:0.465~1~1~Altar Boy~Alliance~~
+N~5100~Fillius Fizzlespinner~1455:0.384:0.737~30~30~Trade Supplier~Alliance~vendor~2901,5956,6217,2320,2321,4291,2678,2692,3713,2880,3466,3857,2324,3371,3372,4289,4399,4400,6530,6532
+N~5101~Bryllia Ironbrand~1455:0.391:0.74~30~30~General Goods Vendor~Alliance~vendor~159,1205,1708,1645,4498,4497,2515,3030,11285,2519,3033,11284,3107,3108,15327,3135,3137,15326,11291,4470,4471
+N~5102~Dolman Steelfury~1455:0.361:0.66~30~30~Weapon Merchant~Alliance~repair,vendor~2131,1194,2134,2479,2130,2480,2139,2132,2488,2489,2490,2491,2492,2493,2494,2495
+N~5107~Mangorn Flinthammer~1455:0.319:0.583~30~30~Heavy Armor Merchant~Alliance~repair,vendor~847,1845,848,849,1846,850,17187,1202
+N~5111~Innkeeper Firebrew~1455:0.185:0.514~30~30~Innkeeper~Alliance~vendor~159,1179,1205,1708,1645,8766,117,2287,3770,3771,4599,8952,2723,2593,2596,2594,2595
+N~5112~Gwenna Firebrew~1455:0.185:0.514~30~30~Barmaid~Alliance~vendor~159,1179,1205,1708,1645,8766,2723,2593,2596,2594,2595
+N~5137~Reyna Stonebranch~1455:0.558:0.59~35~35~Herbalism Trainer~Alliance~~
+N~5140~Edris Barleybeard~1455:0.722:0.759~30~30~Barmaid~Alliance~vendor~159,1179,1205,1708,1645,8766,2723,2593,2596,2594,2595
+N~5151~Ginny Longberry~1455:0.313:0.276~30~30~Reagent Vendor~Alliance~vendor~17034,17035,17036,17037,17038,17031,17032,17020,17030,17033,17028,17029,17021,17026,5565,16583,21177
+N~5162~Tansy Puddlefizz~1455:0.48:0.064~30~30~Fishing Supplier~Alliance~vendor~6326,6328,6369,17062,6256,6529,6530,6532,273636
+N~5177~Tally Berryfizz~1455:0.667:0.554~35~35~Expert Alchemist~Alliance~trainer~
+N~5178~Soolie Berryfizz~1455:0.665:0.55~30~30~Alchemy Supplies~Alliance~vendor~3371,3372,8925,18256,5642,13478
+N~5262~Groddoc Thunderer~~49~49~~~~
+N~5288~Rabid Longtooth~~48~48~~~~
+N~5359~Shore Strider~~49~49~~~~
+N~5361~Wave Strider~~47~48~~~~
+N~5413~Furen Longbeard~1453:0.645:0.373~40~40~~Alliance~~
+N~5461~Sea Elemental~~48~48~~~~
+N~5462~Sea Spray~~47~47~~~~
+N~5489~Brother Joshua~1453:0.496:0.451~50~50~Priest Trainer~Alliance~trainer~
+N~5493~Arnold Leland~1453:0.551:0.697~35~35~Fishing Trainer~Alliance~trainer~
+N~5494~Catherine Leland~1453:0.551:0.697~30~30~Fishing Supplier~Alliance~vendor~6325,6368,6330,6256,6529,6530,6532,273636
+N~5499~Lilyssia Nightbreeze~1453:0.557:0.86~35~35~Expert Alchemist~Alliance~trainer~
+N~5500~Tel'Athir~1453:0.555:0.856~31~31~Journeyman Alchemist~Alliance~trainer~
+N~5502~Shylamiir~1453:0.313:0.629~35~35~Herbalism Trainer~Alliance~trainer~
+N~5503~Eldraeith~1453:0.558:0.852~30~30~Herbalism Supplier~Alliance~vendor~3371,3372,8925,22250
+N~5509~Kathrum Axehand~1453:0.595:0.339~30~30~Axe Merchant~Alliance~repair,vendor~2522,2530,2523,2531
+N~5510~Thulman Flintcrag~1453:0.618:0.364~30~30~Guns Vendor~Alliance~repair,vendor~5441,2508,2510,2516,2509,2519
+N~5566~Tannysa~1453:0.544:0.842~35~35~Herbalism Trainer~Alliance~trainer~
+N~5570~Bruuk Barleybeard~1455:0.724:0.766~50~50~Bartender~Alliance~vendor~4600,2723,2593,2596,2594,2595
+N~5595~Ironforge Guard~~55~55~~Alliance~~
+N~5620~Bartender Wental~1433:0.216:0.442~21~21~Food and Drinks~Alliance~vendor~159,1179,1205,1708,1645,8766,4540,4541,4542,4544,4601,8950,2070,414,422,1707,3927,8932,117,2287,3770,3771,4599,8952
+N~5637~Roetten Stonehammer~1455:0.682:0.177~40~40~Reclaimers Inc.~Alliance~~
+N~5694~High Sorcerer Andromath~1453:0.489:0.877~62~62~~Alliance~~
+N~5815~Kurgul~1454:0.477:0.47~45~45~Demon Trainer~Horde~vendor~16302,16316,16317,16318,16319,16320,16321,16322,16323,16324,16325,16326,16327,16328,16329,16330,16331,16346,16347,16348,16349,16350,16351,16352,16353,16354,16355,16356,16357,16358,16359,16360,16361,16362,16363,16364,16365,16366,16368,16371,16372,16373,16374,16375,16376,16377,16378,16379,16380,16381,16382,16383,16384,16385,16386,16387,16388,16389,16390
+N~6033~Lake Frenzy~~16~16~~~~
+N~6086~Auberdine Sentinel~~40~40~~Alliance~~
+N~6121~Remen Marcot~~10~10~~Alliance~~
+N~6123~Dark Iron Spy~1426:0.779:0.624~10~11~~~~
+N~6124~Captain Beld~1426:0.779:0.626;1426:0.758:0.614~11~11~Dark Iron Captain~~~
+N~6250~Crawler~~11~12~Murloc Hunter's Pet~~~
+N~6300~Elisa Steelhand~1439:0.382:0.411~30~30~Blacksmithing Supplies~Alliance~repair,vendor~2901,5956,2880,3466,3857,18567
+N~6301~Gorbold Steelhand~1439:0.381:0.412~30~30~General Trade Supplier~Alliance~vendor~7005,5956,2901,6256,6217,3371,2320,2321,2678,2692,2880,4289,6529,6530,2605,6260,2604,2324,2928,3372,4291,3713,3466,3857,4399,4400,6532,8343,2325,4341,4342,4340
+N~6374~Cylina Darkheart~1429:0.443:0.658~11~11~Demon Trainer~Alliance~~
+N~6491~Spirit Healer~~60~60~~~~
+N~6569~Gnoarn~1455:0.695:0.507~20~20~~Alliance~~
+N~6577~Bingles Blastenheimer~1432:0.636:0.48~16~16~~Alliance~~
+N~6579~Shoni the Shilent~1453:0.626:0.341~17~17~~Alliance~~
+N~6667~Gelkak Gyromast~1439:0.567:0.135~18~18~~Alliance~~
+N~6669~The Threshwackonator 4100~~20~20~The First Mate~~~
+N~6706~Baritanas Skyriver~~55~55~Hippogryph Master~Alliance~~
+N~6734~Innkeeper Hearthstove~~30~30~Innkeeper~Alliance~~
+N~6735~Innkeeper Saelienne~1457:0.673:0.156~30~30~Innkeeper~Alliance~vendor~4536,4537,4538,4539,4602,8953,159,1179,1205,1708,1645,8766
+N~6737~Innkeeper Shaussiy~1439:0.37:0.441~30~30~Innkeeper~Alliance~vendor~4540,4541,4542,4544,4601,8950,159,1179,1205,1708,1645,8766
+N~6740~Innkeeper Allison~1453:0.604:0.752~30~30~Innkeeper~Alliance~inn,vendor~4540,4541,4542,4544,4601,8950,159,1179,1205,1708,1645,8766
+N~6774~Falkhaan Isenstrider~1429:0.456:0.478~10~10~~Alliance~~
+N~6788~Den Mother~~18~18~~~~
+N~6789~Thistle Cub~1439:0.516:0.375~9~10~~~~
+N~6791~Innkeeper Wiley~~35~35~Innkeeper~~~
+N~6886~Onin MacHammar~~12~12~~Alliance~~
+N~6929~Innkeeper Gryshka~1454:0.541:0.685~30~30~Innkeeper~Horde~~
+N~7161~Wrenix the Wretched~1413:0.631:0.363~20~20~~~~
+N~7232~Borgus Steelhand~1453:0.595:0.341~60~60~Weapon Crafter~Alliance~~
+N~7381~Silver Tabby~~1~1~~~~
+N~7766~Tyrion~1453:0.732:0.356~37~37~~Alliance~~
+N~7877~Latronicus Moonspear~~57~57~~Alliance~~
+N~7880~Ginro Hearthkindle~~55~55~~Alliance~~
+N~7917~Brother Sarno~1453:0.51:0.482~55~55~~Alliance~~
+N~7941~Mardrack Greenwell~1444:0.31:0.431~54~54~Food & Drink~Alliance~vendor~16166,16167,16170,16169,16168,21030,21033,21031,4540,4541,4542,4544,4601,8950,159,1179,1205,1708,1645,8766
+N~7942~Faralorn~1444:0.307:0.434~53~53~General Supplies~Alliance~vendor~159,1179,1205,4496,4498,2512,2515,2516,2519,2946,3107,3131,3135,11291,4470,4471,5048,4497,3030,3033,3108,3137,1708,1645,11285,11284,15327,15326
+N~7943~Harklane~1444:0.31:0.462~49~49~Fish Vendor~Alliance~vendor~159,1179,1205,1708,1645,8766,6303,6289,6308,6362,4603,8959
+N~7944~Tinkmaster Overspark~1455:0.697:0.5~57~57~Master Gnome Engineer~Alliance~~
+N~7945~Savanne~1444:0.311:0.462~49~49~Fishing Supplies~Alliance~vendor~6256,6365,6529,6530,6532,273636
+N~7946~Brannock~1444:0.322:0.416~52~52~Fisherman~Alliance~trainer~
+N~7947~Vivianna~1444:0.313:0.434~52~52~Trade Supplies~Alliance~vendor~7005,6256,6217,2320,2321,4291,8343,2678,2692,3713,2901,2880,3466,3857,2928,2604,2325,4341,4342,4340,3371,3372,8925,4289,4399,4400,6530,6532,5956,2324,13948,12229,13949,13947
+N~8016~Barrens Guard~~40~40~~Horde~~
+N~8019~Fyldren Moonfeather~~55~55~Hippogryph Master~Alliance~~
+N~8508~Gretta Ganter~1426:0.315:0.447~10~10~Fisherman Supplies~Alliance~vendor~6325,6256,6365,6529,6530,6532,6533,273636
+N~8670~Auctioneer Chilton~1453:0.609:0.714~50~50~~Alliance~auction~
+N~8720~Auctioneer Redmuse~1455:0.242:0.744~50~50~~Alliance~auction~
+N~8856~Priestess Tyriona~~25~25~~Alliance~~
+N~8962~Hilary~1433:0.242:0.536~1~1~~~~
+N~8965~Shawn~1433:0.243:0.535~1~1~~~~
+N~8996~Voidwalker Minion~~34~34~Balgaras the Foul's Minion~~~
+N~8997~Gershala Nightwhisper~1439:0.383:0.431~20~20~~Alliance~~
+N~9549~Borand~1442:0.453:0.591~30~30~Bowyer~Horde~repair,vendor~5439,11362,2512,2515,2507,3026
+N~9564~Frezza~~45~45~Zeppelin Master~Horde~~
+N~9566~Zapetta~~45~45~Zeppelin Master~Horde~~
+N~10158~Moonkin~~13~13~~~~
+N~10182~Rexxar~~~~Champion of the Horde~Horde~~
+N~10204~Misha~~62~62~~Horde~~
+N~10216~Gubber Blump~1439:0.361:0.449~15~15~~Alliance~vendor~6256,6529
+N~10219~Gwennyth Bly'Leggonde~1439:0.366:0.455~21~21~~Alliance~~
+N~10293~Dulciea Frostmoon~1444:0.308:0.432~51~51~Cloth Armor Merchant~Alliance~repair,vendor~2429,3593,2431,2432,3594,2434,3889,2435,3587,2437,2438,3588,2440,3892
+N~10323~Murkdeep~~19~19~~~~
+N~10373~Xabraxxis~~19~19~~~~
+N~10378~Omusa Thunderhorn~1413:0.444:0.591~55~55~Wind Rider Master~Horde~flight~
+N~10616~Supervisor Raelen~1429:0.814:0.661~15~15~~Alliance~~
+N~10696~Refuge Pointe Defender~~44~44~~Alliance~~
+N~11026~Sprite Jumpsprocket~1453:0.619:0.309~24~24~Journeyman Engineer~Alliance~~
+N~11028~Jemma Quikswitch~1455:0.68:0.442~24~24~Journeyman Engineer~Alliance~~
+N~11401~Priestess Alathea~1457:0.395:0.811~60~60~Priest Trainer~Alliance~trainer~
+N~11577~Whirlwind Stormwalker~~37~37~~~~
+N~11857~Makaba Flathoof~1413:0.352:0.278~25~25~~Horde~~
+N~11866~Ilyenia Moonfire~1457:0.576:0.467~50~50~Weapon Master~Alliance~trainer~
+N~11910~Grimtotem Ruffian~~15~15~~~~
+N~12043~Kulwia~1442:0.453:0.594~32~32~Trade Supplies~Horde~vendor~7005,2901,5956,6256,6217,2320,2321,2678,2692,2880,2928,3371,3372,4289,6529,6530,2324,11039,11101
+N~12136~Snurk Bucksquick~~45~45~Zeppelin Master~Horde~~
+N~12298~Sickly Deer~~5~5~~~~
+N~12427~Mountaineer Dolf~1426:0.459:0.545~7~7~~Alliance~~
+N~12922~Imp Minion~~22~23~Blackrock Summoner's Pet~~~
+N~12997~Monty~~12~12~Rat Extermination Specialist~Alliance~~
+N~13016~Deeprun Rat~~1~1~~~~
+N~14269~Seeker Aqualon~~21~21~~~~
+N~14357~Lake Thresher~~25~25~~~~
+N~14388~Rogue Black Drake~~50~50~~~~
+N~14637~Zorbin Fandazzle~~40~40~~~~
+N~14724~Bubulo Acerbus~~35~35~Alliance Cloth Quartermaster~Alliance~~
+N~14828~Gelvas Grimegate~1429:0.415:0.689~25~25~Darkmoon Faire Ticket Redemption~~~
+N~14842~Melnan Darkstone~1455:0.292:0.617~30~30~Darkmoon Faire Barker~~~
+N~14982~Lylandris~~61~61~Warsong Gulch Battlemaster~Alliance~~
+N~14983~Field Marshal Oslight~1417:0.459:0.454~62~62~~Alliance~~
+N~15102~Silverwing Emissary~~23~23~~Alliance~~
+N~15127~Samuel Hawke~1417:0.459:0.454~55~55~League of Arathor Supply Officer~Alliance~repair,vendor~17349,17352,20226,20227,20225,20244,20237,20243,17348,17351,21119,21118,21117,20071,20090,20089,20088,20043,20099,20098,20097,20047,20105,20104,20103,20046,20108,20107,20106,20042,20117,20116,20115,20045,20126,20125,20124,20041,20093,20092,20091,20050,20096,20095,20094,20054,20102,20101,20100,20053,20111,20110,20109,20049,20114,20113,20112,20052,20129,20128,20127,20048,20073,20055,20060,20061,20058,20059,20057,20069,20070
+N~15350~Horde Warbringer~1413:0.648:0.351~60~60~~Horde~~
+N~15351~Alliance Brigadier General~1455:0.697:0.895;1417:0.457:0.458~60~60~~Alliance~~
+N~16227~Bragok~1413:0.631:0.371~55~55~Flight Master~~flight~
+N~49808~Grenhild Darktalon~1432:0.365:0.483~25~25~~Alliance~~
+N~211033~Garion Wendell~1453:0.49:0.865~60~60~Librarian~Alliance~~
+N~214519~Incinerator Gar'im~~23~23~~~~
+N~214529~Brave Stonetorch~~50~50~~~~
+N~247264~Emissary Jacques~1424:0.483:0.601~27~27~Kirin Tor~Alliance~~
+N~248242~Hamish Bergwort~1429:0.651:0.698~35~35~~Alliance~~
+N~248248~Blixie Fitzwink~1429:0.632:0.725~35~35~~Alliance~~
+N~248265~Ormin Pelford~1429:0.765:0.719~35~35~~Alliance~~
+N~248266~Hagar Lowe~1429:0.825:0.639;1429:0.82:0.61~35~35~~Alliance~~
+N~248277~Merell Ross~1429:0.847:0.793~35~35~Watch Captain~Alliance~~
+N~248278~Croaky~1429:0.772:0.868~11~11~~~~
+N~248463~Rumbler~1429:0.607:0.497~7~7~Geosculptor Yip's Guardian~~~
+N~248474~Geosculptor Yip~1429:0.609:0.494~7~7~~~~
+N~249713~Odd Child~1415:0.411:0.791~1~1~~~~
+N~251493~Captain McManus~1424:0.465:0.501~55~55~~~~
+N~253092~Alba Fairmoon~1436:0.525:0.531~24~24~~Alliance~~
+N~253395~Ozwin Ironsprocket~1436:0.516:0.322~15~15~~Alliance~~
+N~256386~Dokimi~~30~30~Inventory Intake~Horde~~
+N~256390~Marcy Baker~1433:0.097:0.709~30~30~Inventory Intake~Alliance~~
+N~256729~Nina Surefire~1433:0.108:0.727~60~60~Alchemist~Alliance~vendor~250381,250378,250990,250388,250367,250376,250984,250978,250383,250377,250997,250369,250371,250993,250998,250372,250379,250981,250994,250365,250995,250364,250374,250384,250386,250373,250987,250387,271621
+N~256731~Kalsey Sanden~1433:0.108:0.727~60~60~Chef~Alliance~vendor~249885,249887,249886,249889,249888,249890,159,2678,2692,3713,10284,4471,4470,11291,272941,21099,21219,4536
+N~257304~Alyce~~36~36~~~~
+N~258043~Norric Lochthane~1432:0.419:0.19~32~32~~Alliance~~
+N~258098~Eldrun Stormbreaker~1455:0.472:0.137~5~5~Shaman Trainer~Alliance~~
+N~258785~High Priestess Mims~1455:0.248:0.102~60~60~Priest Trainer~Alliance~trainer~
+N~260157~Elder Snow Leopard~~9~10~~~~
+N~262397~Brinescale Skirmisher~~37~38~~~~
+N~264936~Earthseer Farsen~1426:0.649:0.584~13~13~~Alliance~~
